@@ -10,10 +10,10 @@
       font-family: Arial, sans-serif;
       display: flex;
       height: 100vh;
-      background: #f8f9fb;
+      background: #f6f8fa;
     }
     #sidebar {
-      width: 320px;
+      width: 340px;
       background: #ffffff;
       border-right: 1px solid #ddd;
       padding: 16px;
@@ -44,33 +44,50 @@
 
 <body>
 
-  <div id="sidebar">
-    <h2>📊 Test Runs</h2>
+<div id="sidebar">
+  <h2>📊 Test Runs</h2>
+  <div id="runs">Loading runs…</div>
+</div>
 
-    <!-- ADD NEW RUNS HERE -->
-    <div class="run" onclick="loadReport('runs/2026-01-06/run-01/index.html')">
-      📅 06 Jan 2026 — Run 01
-    </div>
+<iframe id="viewer"></iframe>
 
-    <div class="run" onclick="loadReport('runs/2026-01-06/run-02/index.html')">
-      📅 06 Jan 2026 — Run 02
-    </div>
+<script>
+async function loadRuns() {
+  const runsContainer = document.getElementById("runs");
 
-    <div class="run" onclick="loadReport('runs/2026-01-07/run-01/index.html')">
-      📅 07 Jan 2026 — Run 01
-    </div>
-  </div>
+  try {
+    // GitHub Pages directory listing via JSON
+    const res = await fetch("runs/index.json");
+    const data = await res.json();
 
-  <iframe id="viewer"></iframe>
+    runsContainer.innerHTML = "";
 
-  <script>
-    function loadReport(path) {
-      document.getElementById("viewer").src = path;
-    }
+    // sort latest first
+    data.sort((a, b) => b.path.localeCompare(a.path));
 
-    // default = latest run
-    loadReport("runs/2026-01-06/run-01/index.html");
-  </script>
+    data.forEach((run, index) => {
+      const div = document.createElement("div");
+      div.className = "run";
+      div.textContent = `📅 ${run.label}`;
+      div.onclick = () => {
+        document.getElementById("viewer").src = run.path + "/index.html";
+      };
+      runsContainer.appendChild(div);
+
+      // auto-load latest
+      if (index === 0) {
+        document.getElementById("viewer").src = run.path + "/index.html";
+      }
+    });
+
+  } catch (e) {
+    runsContainer.innerHTML = "❌ Failed to load runs";
+    console.error(e);
+  }
+}
+
+loadRuns();
+</script>
 
 </body>
 </html>
