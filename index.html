@@ -51,29 +51,28 @@
   <iframe id="viewer"></iframe>
 
   <script>
-    fetch('./runs/index.json')
+    fetch('./runs/index.json?ts=' + Date.now())
       .then(res => res.json())
       .then(data => {
         const container = document.getElementById('runs');
-
+  
         if (!data.dates || data.dates.length === 0) {
           container.innerHTML = '<div class="empty">No runs found</div>';
           return;
         }
-
-        // show latest dates first
-        data.dates.reverse().forEach(day => {
-          const dateDiv = document.createElement('div');
-          dateDiv.className = 'date';
-          dateDiv.textContent = day.date;
-          container.appendChild(dateDiv);
-
-          day.runs.reverse().forEach(run => {
+  
+        // Show latest dates first
+        data.dates.reverse().forEach(dateBlock => {
+          const dateTitle = document.createElement('h4');
+          dateTitle.textContent = dateBlock.date;
+          container.appendChild(dateTitle);
+  
+          dateBlock.runs.reverse().forEach(run => {
             const div = document.createElement('div');
             div.className = 'run';
             div.textContent = run.label;
             div.onclick = () => {
-              document.getElementById('viewer').src = './' + run.path;
+              document.getElementById('viewer').src = run.path;
             };
             container.appendChild(div);
           });
