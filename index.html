@@ -1,92 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
-  <title>AskSam Automation – Test Run Reports</title>
-
+  <title>AskSam Automation – Test Runs</title>
   <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      display: flex;
-      height: 100vh;
-      background: #f6f8fa;
-    }
-    #sidebar {
-      width: 340px;
-      background: #ffffff;
-      border-right: 1px solid #ddd;
-      padding: 16px;
-      overflow-y: auto;
-    }
-    #sidebar h2 {
-      margin-top: 0;
-      font-size: 18px;
-    }
-    .run {
-      padding: 10px;
-      margin-bottom: 8px;
-      border-radius: 6px;
-      cursor: pointer;
-      border: 1px solid #ddd;
-      background: #fafafa;
-    }
-    .run:hover {
-      background: #e6f0ff;
-    }
-    iframe {
-      flex: 1;
-      border: none;
-      background: #fff;
-    }
+    body { margin: 0; font-family: Arial; display: flex; height: 100vh; }
+    .sidebar { width: 300px; border-right: 1px solid #ddd; padding: 10px; overflow-y: auto; }
+    .sidebar h3 { margin-top: 0; }
+    .run { padding: 8px; cursor: pointer; border-radius: 4px; }
+    .run:hover { background: #f0f0f0; }
+    iframe { flex: 1; border: none; }
+    .error { color: red; }
   </style>
 </head>
-
 <body>
 
-<div id="sidebar">
-  <h2>📊 Test Runs</h2>
-  <div id="runs">Loading runs…</div>
+<div class="sidebar">
+  <h3>🧪 Test Runs</h3>
+  <div id="runs">Loading…</div>
 </div>
 
 <iframe id="viewer"></iframe>
 
 <script>
-async function loadRuns() {
-  const runsContainer = document.getElementById("runs");
-
-  try {
-    // GitHub Pages directory listing via JSON
-    const res = await fetch("runs/index.json");
-    const data = await res.json();
-
-    runsContainer.innerHTML = "";
-
-    // sort latest first
-    data.sort((a, b) => b.path.localeCompare(a.path));
-
-    data.forEach((run, index) => {
-      const div = document.createElement("div");
-      div.className = "run";
-      div.textContent = `📅 ${run.label}`;
+fetch('runs/index.json')
+  .then(res => res.json())
+  .then(runs => {
+    const container = document.getElementById('runs');
+    container.innerHTML = '';
+    runs.forEach(run => {
+      const div = document.createElement('div');
+      div.className = 'run';
+      div.innerText = `${run.date} — ${run.run}`;
       div.onclick = () => {
-        document.getElementById("viewer").src = run.path + "/index.html";
+        document.getElementById('viewer').src = run.url;
       };
-      runsContainer.appendChild(div);
-
-      // auto-load latest
-      if (index === 0) {
-        document.getElementById("viewer").src = run.path + "/index.html";
-      }
+      container.appendChild(div);
     });
-
-  } catch (e) {
-    runsContainer.innerHTML = "❌ Failed to load runs";
-    console.error(e);
-  }
-}
-
-loadRuns();
+  })
+  .catch(() => {
+    document.getElementById('runs').innerHTML =
+      '<div class="error">❌ Failed to load runs</div>';
+  });
 </script>
 
 </body>
