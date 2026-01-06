@@ -74,55 +74,54 @@
     <iframe id="viewer"></iframe>
   </div>
 
-<script>
-  async function loadRuns() {
-    const runsContainer = document.getElementById('runs');
-
-    try {
-      // ✅ IMPORTANT: NO ./ (GitHub Pages fix)
-      const res = await fetch('runs/2026-01-06/index.json');
-      if (!res.ok) throw new Error('index.json not found');
-
-      const data = await res.json();
-      runsContainer.innerHTML = '';
-
-      if (!data.runs || data.runs.length === 0) {
-        runsContainer.innerHTML = '<p class="error">❌ No runs found</p>';
-        return;
+  <script>
+    async function loadRuns() {
+      const runsContainer = document.getElementById('runs');
+  
+      try {
+        const res = await fetch(
+          '/asksam-playwright-reports/runs/2026-01-06/index.json'
+        );
+  
+        if (!res.ok) throw new Error('index.json not found');
+  
+        const data = await res.json();
+        runsContainer.innerHTML = '';
+  
+        data.runs.forEach((run, index) => {
+          const div = document.createElement('div');
+          div.className = 'run';
+          div.textContent = run.label;
+  
+          div.onclick = () => {
+            document
+              .querySelectorAll('.run')
+              .forEach(r => r.classList.remove('active'));
+  
+            div.classList.add('active');
+            document.getElementById('viewer').src =
+              '/asksam-playwright-reports/' + run.path;
+          };
+  
+          runsContainer.appendChild(div);
+  
+          // Auto-load latest run
+          if (index === 0) {
+            div.classList.add('active');
+            document.getElementById('viewer').src =
+              '/asksam-playwright-reports/' + run.path;
+          }
+        });
+  
+      } catch (err) {
+        console.error(err);
+        runsContainer.innerHTML =
+          '<p style="color:red">❌ No runs found</p>';
       }
-
-      data.runs.forEach((run, index) => {
-        const div = document.createElement('div');
-        div.className = 'run';
-        div.textContent = run.label;
-
-        div.onclick = () => {
-          document
-            .querySelectorAll('.run')
-            .forEach(r => r.classList.remove('active'));
-
-          div.classList.add('active');
-          document.getElementById('viewer').src = run.path;
-        };
-
-        runsContainer.appendChild(div);
-
-        // Auto-load latest run
-        if (index === 0) {
-          div.classList.add('active');
-          document.getElementById('viewer').src = run.path;
-        }
-      });
-
-    } catch (err) {
-      console.error(err);
-      runsContainer.innerHTML =
-        '<p class="error">❌ No runs found</p>';
     }
-  }
-
-  loadRuns();
-</script>
+  
+    loadRuns();
+  </script>
 
 </body>
 </html>
