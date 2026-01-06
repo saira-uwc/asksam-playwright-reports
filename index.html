@@ -1,13 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
   <title>AskSam Automation – Test Runs</title>
   <style>
-    body { margin:0; display:flex; font-family:Arial }
-    #sidebar { width:280px; border-right:1px solid #ddd; padding:10px }
-    iframe { flex:1; border:none }
-    .run { padding:8px; cursor:pointer; background:#f5f5f5; margin-bottom:5px }
-    .run:hover { background:#e0e0e0 }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      height: 100vh;
+    }
+    #sidebar {
+      width: 320px;
+      border-right: 1px solid #ddd;
+      padding: 12px;
+      overflow-y: auto;
+    }
+    #sidebar h3 {
+      margin-top: 0;
+    }
+    .run-link {
+      display: block;
+      padding: 10px;
+      margin-bottom: 6px;
+      border-radius: 6px;
+      background: #f5f5f5;
+      text-decoration: none;
+      color: #000;
+    }
+    .run-link:hover {
+      background: #e0e0e0;
+    }
+    #content {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #777;
+      font-size: 16px;
+    }
   </style>
 </head>
 <body>
@@ -17,22 +48,29 @@
   <div id="runs">Loading…</div>
 </div>
 
-<iframe id="viewer"></iframe>
+<div id="content">
+  👉 Click a run on the left to open the report
+</div>
 
 <script>
-fetch('./runs/index.json')
-  .then(r => r.json())
-  .then(data => {
-    const list = document.getElementById('runs');
-    list.innerHTML = '';
-    data.runs.forEach(r => {
-      const div = document.createElement('div');
-      div.className = 'run';
-      div.textContent = r.label;
-      div.onclick = () => document.getElementById('viewer').src = r.path;
-      list.appendChild(div);
+  fetch('./runs/index.json')
+    .then(res => res.json())
+    .then(runs => {
+      const list = document.getElementById('runs');
+      list.innerHTML = '';
+      runs.reverse().forEach(run => {
+        const a = document.createElement('a');
+        a.href = run.url;
+        a.target = '_blank';   // IMPORTANT
+        a.className = 'run-link';
+        a.textContent = `${run.date} — ${run.run}`;
+        list.appendChild(a);
+      });
+    })
+    .catch(() => {
+      document.getElementById('runs').innerHTML =
+        '<p style="color:red">❌ No runs found</p>';
     });
-  });
 </script>
 
 </body>
