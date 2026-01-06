@@ -4,6 +4,8 @@
       "date": "2026-01-06",
       "runs": [
         { "label": "2026-01-06 — run-01", "path": "runs/2026-01-06/run-01/index.html" }
+,
+        { "label": "2026-01-06 — run-02", "path": "runs/2026-01-06/run-02/index.html" }
       ]
     }
   ]
