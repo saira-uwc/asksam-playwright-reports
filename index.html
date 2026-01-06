@@ -49,41 +49,31 @@
 </div>
 
 <script>
-async function loadRuns() {
-  const runsDiv = document.getElementById("runs");
-  runsDiv.innerHTML = "";
-
-  const dates = [
-    "2026-01-06"
-  ];
-
-  for (const date of dates) {
+  async function loadRuns() {
     try {
-      const res = await fetch(`runs/${date}/index.json`);
+      const res = await fetch('./runs/2026-01-06/index.json');
+      if (!res.ok) throw new Error('index.json not found');
+  
       const data = await res.json();
-
+      const list = document.getElementById('runs');
+  
+      list.innerHTML = '';
+  
       data.runs.forEach(run => {
-        const div = document.createElement("div");
-        div.className = "run";
-        div.innerText = `${date} — ${run.name}`;
-        div.onclick = () => {
-          document.getElementById("viewer").src =
-            `runs/${date}/${run.path}/index.html`;
-        };
-        runsDiv.appendChild(div);
+        const a = document.createElement('a');
+        a.href = run.path;
+        a.textContent = run.label;
+        a.className = 'run-link';
+        list.appendChild(a);
       });
     } catch (e) {
-      console.error("Failed loading runs for", date, e);
+      document.getElementById('runs').innerHTML =
+        '<p style="color:red">❌ No runs found</p>';
     }
   }
-
-  if (!runsDiv.children.length) {
-    runsDiv.innerHTML = "❌ No runs found";
-  }
-}
-
-loadRuns();
-</script>
+  
+  loadRuns();
+  </script>
 
 </body>
 </html>
