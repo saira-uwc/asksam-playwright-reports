@@ -1,74 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <title>AskSam Playwright Test Reports</title>
   <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      display: flex;
-      height: 100vh;
-    }
-    #sidebar {
-      width: 300px;
-      border-right: 1px solid #ddd;
-      overflow-y: auto;
-      padding: 10px;
-    }
-    .run {
-      padding: 8px;
-      cursor: pointer;
-      border-radius: 4px;
-    }
-    .run:hover {
-      background: #f0f0f0;
-    }
-    .empty {
-      color: red;
-      padding: 10px;
-    }
+    body { margin: 0; display: flex; height: 100vh; font-family: Arial; }
+    #sidebar { width: 320px; border-right: 1px solid #ccc; padding: 10px; overflow-y: auto; }
+    .run { cursor: pointer; padding: 6px; }
+    .run:hover { background: #eee; }
+    iframe { flex: 1; border: none; }
+    h4 { margin: 10px 0 5px; }
   </style>
 </head>
 <body>
 
-  <div id="sidebar">
-    <h2>Test Runs</h2>
-    <div id="runs"></div>
-  </div>
+<div id="sidebar">
+  <h2>Test Runs</h2>
+  <div id="runs"></div>
+</div>
 
-  <script>
-    fetch('./runs/index.json?ts=' + Date.now())
-      .then(res => res.json())
-      .then(data => {
-        const container = document.getElementById('runs');
+<iframe id="viewer"></iframe>
 
-        if (!data.dates || data.dates.length === 0) {
-          container.innerHTML = '<div class="empty">No runs found</div>';
-          return;
-        }
+<script>
+fetch('runs/index.json?ts=' + Date.now())
+  .then(r => r.json())
+  .then(data => {
+    const c = document.getElementById('runs');
+    data.dates.reverse().forEach(d => {
+      const h = document.createElement('h4');
+      h.textContent = d.date;
+      c.appendChild(h);
 
-        data.dates.reverse().forEach(dateBlock => {
-          const h4 = document.createElement('h4');
-          h4.textContent = dateBlock.date;
-          container.appendChild(h4);
-
-          dateBlock.runs.reverse().forEach(run => {
-            const div = document.createElement('div');
-            div.className = 'run';
-            div.textContent = run.label;
-            div.onclick = () => {
-              window.open(run.path + '?ts=' + Date.now(), '_blank');
-            };
-            container.appendChild(div);
-          });
-        });
-      })
-      .catch(() => {
-        document.getElementById('runs').innerHTML =
-          '<div class="empty">Failed to load runs</div>';
+      d.runs.reverse().forEach(r => {
+        const div = document.createElement('div');
+        div.className = 'run';
+        div.textContent = r.label;
+        div.onclick = () => document.getElementById('viewer').src = r.path;
+        c.appendChild(div);
       });
-  </script>
+    });
+  });
+</script>
 
 </body>
 </html>
