@@ -1,46 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>AskSam Playwright Test Reports</title>
-  <style>
-    body { margin: 0; display: flex; height: 100vh; font-family: Arial; }
-    #sidebar { width: 320px; border-right: 1px solid #ccc; padding: 10px; overflow-y: auto; }
-    .run { cursor: pointer; padding: 6px; }
-    .run:hover { background: #eee; }
-    iframe { flex: 1; border: none; }
-    h4 { margin: 10px 0 5px; }
-  </style>
+  <meta charset="UTF-8" />
+  <title>AskSam Playwright Test Report</title>
+  <meta http-equiv="refresh" content="0; url=./index.html">
 </head>
 <body>
-
-<div id="sidebar">
-  <h2>Test Runs</h2>
-  <div id="runs"></div>
-</div>
-
-<iframe id="viewer"></iframe>
-
-<script>
-fetch('runs/index.json?ts=' + Date.now())
-  .then(r => r.json())
-  .then(data => {
-    const c = document.getElementById('runs');
-    data.dates.reverse().forEach(d => {
-      const h = document.createElement('h4');
-      h.textContent = d.date;
-      c.appendChild(h);
-
-      d.runs.reverse().forEach(r => {
-        const div = document.createElement('div');
-        div.className = 'run';
-        div.textContent = r.label;
-        div.onclick = () => document.getElementById('viewer').src = r.path;
-        c.appendChild(div);
-      });
-    });
-  });
-</script>
-
+  <p>Loading latest Playwright report…</p>
 </body>
 </html>
