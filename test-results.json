@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-03-12T12:46:19.271Z",
+  "lastUpdated": "2026-03-12T17:54:59.647Z",
   "runs": [
     {
       "date": "2026-03-12",
-      "passed": 4,
+      "passed": 5,
       "failed": 8,
-      "total": 12
+      "total": 13
     },
     {
       "date": "11 Mar",
@@ -65,123 +65,133 @@
   "tests": [
     {
       "id": 1,
-      "module": "CCOP",
-      "name": "CCOP | Clinician signup full flow (recorded)",
-      "status": "failed",
-      "duration": "36.1s",
-      "screenshot": "./artifacts/ccop___clinician_signup_full_flow__recorded_-screenshot.png",
-      "video": "./artifacts/ccop___clinician_signup_full_flow__recorded_-video.webm",
-      "trace": "./artifacts/ccop___clinician_signup_full_flow__recorded_-trace.zip"
+      "module": "Expert-Dashboard",
+      "name": "authenticate",
+      "status": "passed",
+      "duration": "10.8s",
+      "screenshot": "",
+      "video": "",
+      "trace": ""
     },
     {
       "id": 2,
-      "module": "CCOP",
-      "name": "CCOP | Help Center | Raise, Reply & Resolve Ticket",
-      "status": "passed",
-      "duration": "15.5s",
-      "screenshot": "",
-      "video": "",
-      "trace": ""
-    },
-    {
-      "id": 3,
-      "module": "CCOP",
-      "name": "Create clinical note with document upload & transcription",
-      "status": "passed",
-      "duration": "1m 1s",
-      "screenshot": "",
-      "video": "",
-      "trace": ""
-    },
-    {
-      "id": 4,
-      "module": "CCOP",
-      "name": "Create patient + upload + submit",
-      "status": "failed",
-      "duration": "1m 15s",
-      "screenshot": "./artifacts/create_patient___upload___submit-screenshot.png",
-      "video": "./artifacts/create_patient___upload___submit-video.webm",
-      "trace": "./artifacts/create_patient___upload___submit-trace.zip"
-    },
-    {
-      "id": 5,
       "module": "Expert-Dashboard",
       "name": "Expert Dashboard | Appointment booking (dynamic slots)",
       "status": "failed",
-      "duration": "47.9s",
+      "duration": "41.8s",
       "screenshot": "./artifacts/expert_dashboard___appointment_booking__dynamic_sl-screenshot.png",
       "video": "./artifacts/expert_dashboard___appointment_booking__dynamic_sl-video.webm",
       "trace": "./artifacts/expert_dashboard___appointment_booking__dynamic_sl-trace.zip"
     },
     {
-      "id": 6,
+      "id": 3,
       "module": "Expert-Dashboard",
       "name": "create appointment with existing patient and cancel non-cancelled one",
       "status": "failed",
-      "duration": "46.8s",
+      "duration": "41.9s",
       "screenshot": "./artifacts/create_appointment_with_existing_patient_and_cance-screenshot.png",
       "video": "./artifacts/create_appointment_with_existing_patient_and_cance-video.webm",
       "trace": "./artifacts/create_appointment_with_existing_patient_and_cance-trace.zip"
     },
     {
-      "id": 7,
+      "id": 4,
       "module": "Expert-Dashboard",
       "name": "create appointment with existing patient and reschedule",
       "status": "failed",
-      "duration": "46.7s",
+      "duration": "41.6s",
       "screenshot": "./artifacts/create_appointment_with_existing_patient_and_resch-screenshot.png",
       "video": "./artifacts/create_appointment_with_existing_patient_and_resch-video.webm",
       "trace": "./artifacts/create_appointment_with_existing_patient_and_resch-trace.zip"
     },
     {
-      "id": 8,
+      "id": 5,
       "module": "Expert-Dashboard",
       "name": "create appointment and manage session lifecycle",
       "status": "failed",
-      "duration": "47.1s",
+      "duration": "41.8s",
       "screenshot": "./artifacts/create_appointment_and_manage_session_lifecycle-screenshot.png",
       "video": "./artifacts/create_appointment_and_manage_session_lifecycle-video.webm",
       "trace": "./artifacts/create_appointment_and_manage_session_lifecycle-trace.zip"
     },
     {
-      "id": 9,
+      "id": 6,
       "module": "Expert-Dashboard",
       "name": "Expert Dashboard | Create patient & book appointment",
       "status": "failed",
-      "duration": "42.3s",
+      "duration": "37.4s",
       "screenshot": "./artifacts/expert_dashboard___create_patient___book_appointme-screenshot.png",
       "video": "./artifacts/expert_dashboard___create_patient___book_appointme-video.webm",
       "trace": "./artifacts/expert_dashboard___create_patient___book_appointme-trace.zip"
     },
     {
-      "id": 10,
+      "id": 7,
       "module": "Expert-Dashboard",
       "name": "Expert Dashboard | Navigation flow validation",
       "status": "passed",
-      "duration": "18.3s",
+      "duration": "12.7s",
+      "screenshot": "",
+      "video": "",
+      "trace": ""
+    },
+    {
+      "id": 8,
+      "module": "Expert-Dashboard",
+      "name": "Expert Dashboard | Help Center raise & reply ticket",
+      "status": "passed",
+      "duration": "11.6s",
+      "screenshot": "",
+      "video": "",
+      "trace": ""
+    },
+    {
+      "id": 9,
+      "module": "Expert-Dashboard",
+      "name": "create unique patient, search and view profile",
+      "status": "failed",
+      "duration": "36.4s",
+      "screenshot": "./artifacts/create_unique_patient__search_and_view_profile-screenshot.png",
+      "video": "./artifacts/create_unique_patient__search_and_view_profile-video.webm",
+      "trace": "./artifacts/create_unique_patient__search_and_view_profile-trace.zip"
+    },
+    {
+      "id": 10,
+      "module": "CCOP",
+      "name": "CCOP | Help Center | Raise, Reply & Resolve Ticket",
+      "status": "passed",
+      "duration": "10.2s",
       "screenshot": "",
       "video": "",
       "trace": ""
     },
     {
       "id": 11,
-      "module": "Expert-Dashboard",
-      "name": "Expert Dashboard | Help Center raise & reply ticket",
+      "module": "CCOP",
+      "name": "Create clinical note with document upload & transcription",
       "status": "passed",
-      "duration": "15.3s",
+      "duration": "51.9s",
       "screenshot": "",
       "video": "",
       "trace": ""
     },
     {
       "id": 12,
-      "module": "Expert-Dashboard",
-      "name": "create unique patient, search and view profile",
+      "module": "CCOP",
+      "name": "Create patient + upload + submit",
       "status": "failed",
-      "duration": "41.3s",
-      "screenshot": "./artifacts/create_unique_patient__search_and_view_profile-screenshot.png",
-      "video": "./artifacts/create_unique_patient__search_and_view_profile-video.webm",
-      "trace": "./artifacts/create_unique_patient__search_and_view_profile-trace.zip"
+      "duration": "1m 11s",
+      "screenshot": "./artifacts/create_patient___upload___submit-screenshot.png",
+      "video": "./artifacts/create_patient___upload___submit-video.webm",
+      "trace": "./artifacts/create_patient___upload___submit-trace.zip"
+    },
+    {
+      "id": 13,
+      "module": "CCOP",
+      "name": "CCOP | Clinician signup full flow (recorded)",
+      "status": "failed",
+      "duration": "36.6s",
+      "screenshot": "./artifacts/ccop___clinician_signup_full_flow__recorded_-screenshot.png",
+      "video": "./artifacts/ccop___clinician_signup_full_flow__recorded_-video.webm",
+      "trace": "./artifacts/ccop___clinician_signup_full_flow__recorded_-trace.zip"
     }
   ]
 }
