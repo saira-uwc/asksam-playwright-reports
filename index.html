@@ -240,56 +240,30 @@
 
     .run-history {
       display: flex;
-      gap: 8px;
+      gap: 4px;
       margin-top: 20px;
-      align-items: flex-end;
-    }
-
-    .run-bar-wrap {
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 6px;
-      cursor: pointer;
-    }
-
-    .run-bar-wrap:hover .run-bar {
-      transform: scaleY(1.08);
     }
 
     .run-bar {
-      width: 100%;
+      flex: 1;
       height: 40px;
       border-radius: 4px;
+      cursor: pointer;
       transition: transform 0.2s;
       position: relative;
+    }
+
+    .run-bar:hover {
+      transform: scaleY(1.1);
     }
 
     .run-bar.passed { background: linear-gradient(180deg, #10b981 0%, #059669 100%); }
     .run-bar.failed { background: linear-gradient(180deg, #ef4444 0%, #dc2626 100%); }
     .run-bar.partial { background: linear-gradient(180deg, #f59e0b 0%, #d97706 100%); }
 
-    .run-bar-label {
-      font-size: 10px;
-      color: #888;
-      text-align: center;
-      white-space: nowrap;
-    }
-
-    .run-bar-score {
-      font-size: 11px;
-      font-weight: 600;
-      text-align: center;
-    }
-
-    .run-bar-score.passed { color: #10b981; }
-    .run-bar-score.partial { color: #f59e0b; }
-    .run-bar-score.failed  { color: #ef4444; }
-
     .run-bar .tooltip {
       position: absolute;
-      bottom: 110%;
+      bottom: 100%;
       left: 50%;
       transform: translateX(-50%);
       background: #1a1a2e;
@@ -304,7 +278,7 @@
       z-index: 10;
     }
 
-    .run-bar-wrap:hover .tooltip {
+    .run-bar:hover .tooltip {
       opacity: 1;
       visibility: visible;
     }
@@ -376,11 +350,11 @@
     <div class="stats-grid">
       <div class="stat-card">
         <div class="stat-label">Total Tests</div>
-        <div class="stat-value total" id="totalTests">12</div>
+        <div class="stat-value total" id="totalTests">17</div>
       </div>
       <div class="stat-card">
         <div class="stat-label">Passed</div>
-        <div class="stat-value passed" id="passedTests">12</div>
+        <div class="stat-value passed" id="passedTests">17</div>
       </div>
       <div class="stat-card">
         <div class="stat-label">Failed</div>
@@ -433,9 +407,8 @@
   <script>
     // Test data - This can be updated by CI/CD pipeline or manually
     const testData = {
-      lastUpdated: '2026-03-02T09:54:00.000Z',
+      lastUpdated: new Date().toISOString(),
       runs: [
-        { date: '2026-03-02', passed: 12, failed: 0, total: 12 },
         { date: '2026-02-12', passed: 12, failed: 0, total: 12 },
         { date: '2026-02-11', passed: 11, failed: 1, total: 12 },
         { date: '2026-02-10', passed: 12, failed: 0, total: 12 },
@@ -444,7 +417,8 @@
         { date: '2026-02-07', passed: 11, failed: 1, total: 12 },
         { date: '2026-02-06', passed: 12, failed: 0, total: 12 },
         { date: '2026-02-05', passed: 9, failed: 3, total: 12 },
-        { date: '2026-02-04', passed: 12, failed: 0, total: 12 }
+        { date: '2026-02-04', passed: 12, failed: 0, total: 12 },
+        { date: '2026-02-03', passed: 12, failed: 0, total: 12 }
       ],
       tests: [
         {
@@ -566,6 +540,56 @@
           screenshot: '',
           video: '',
           trace: ''
+        },
+        {
+          id: 13,
+          module: 'CCOP',
+          name: 'Open letter template from Actions dropdown, select type and verify preview',
+          status: 'passed',
+          duration: '1m 30s',
+          screenshot: '',
+          video: '',
+          trace: ''
+        },
+        {
+          id: 14,
+          module: 'CCOP',
+          name: 'Create a new letter template from Actions dropdown',
+          status: 'passed',
+          duration: '2m 10s',
+          screenshot: '',
+          video: '',
+          trace: ''
+        },
+        {
+          id: 15,
+          module: 'CCOP',
+          name: 'AI panel — Graph tab: knowledge graph, zoom controls, node properties, legends',
+          status: 'passed',
+          duration: '1m 45s',
+          screenshot: '',
+          video: '',
+          trace: ''
+        },
+        {
+          id: 16,
+          module: 'CCOP',
+          name: 'AI panel — Assistant tab: associations, medication & comorbidity sub-tabs',
+          status: 'passed',
+          duration: '1m 20s',
+          screenshot: '',
+          video: '',
+          trace: ''
+        },
+        {
+          id: 17,
+          module: 'CCOP',
+          name: 'AI panel — asksam tab: chat input, send message, disclaimer',
+          status: 'passed',
+          duration: '1m 55s',
+          screenshot: '',
+          video: '',
+          trace: ''
         }
       ]
     };
@@ -607,16 +631,12 @@
       const runHistory = document.getElementById('runHistory');
       runHistory.innerHTML = data.runs.map(run => {
         const status = run.failed === 0 ? 'passed' : run.failed >= 3 ? 'failed' : 'partial';
-        const shortDate = new Date(run.date).toLocaleDateString('en-AU', { day: '2-digit', month: 'short' });
         return `
-          <div class="run-bar-wrap">
-            <div class="run-bar ${status}">
-              <div class="tooltip">
-                ${run.date}<br>✅ Passed: ${run.passed} &nbsp; ❌ Failed: ${run.failed}
-              </div>
+          <div class="run-bar ${status}">
+            <div class="tooltip">
+              ${run.date}<br>
+              Passed: ${run.passed} | Failed: ${run.failed}
             </div>
-            <div class="run-bar-score ${status}">${run.passed}/${run.total}</div>
-            <div class="run-bar-label">${shortDate}</div>
           </div>
         `;
       }).join('');

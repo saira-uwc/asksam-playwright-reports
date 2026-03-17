@@ -1,0 +1,119 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - link [ref=e8] [cursor=pointer]:
+        - /url: https://www.asksam.com.au/
+      - generic [ref=e9]:
+        - link "appointments" [ref=e10] [cursor=pointer]:
+          - /url: /expert/appointments
+          - img [ref=e11]
+        - link "chat" [ref=e13] [cursor=pointer]:
+          - /url: /expert/chat
+          - img [ref=e14]
+        - link "notifications" [ref=e16] [cursor=pointer]:
+          - /url: /expert/notifications
+          - img [ref=e17]
+        - button "Open user menu" [ref=e20] [cursor=pointer]:
+          - img "Anthony Smith's logo" [ref=e23]
+  - generic [ref=e26]:
+    - list [ref=e28]:
+      - link "Dashboard" [ref=e29] [cursor=pointer]:
+        - /url: /expert/dashboard
+        - img [ref=e31]
+        - generic [ref=e34]: Dashboard
+      - link "Appointments" [ref=e35] [cursor=pointer]:
+        - /url: /expert/appointments
+        - img [ref=e37]
+        - generic [ref=e40]: Appointments
+      - link "Session Management" [ref=e41] [cursor=pointer]:
+        - /url: /expert/sessionmanagement
+        - img [ref=e43]
+        - generic [ref=e46]: Session Management
+      - link "Patients" [ref=e47] [cursor=pointer]:
+        - /url: /expert/patients
+        - img [ref=e49]
+        - generic [ref=e52]: Patients
+      - link "Chat" [ref=e53] [cursor=pointer]:
+        - /url: /expert/chat
+        - img [ref=e55]
+        - generic [ref=e58]: Chat
+      - link "Notifications" [ref=e59] [cursor=pointer]:
+        - /url: /expert/notifications
+        - img [ref=e61]
+        - generic [ref=e64]: Notifications
+      - link "Help Center" [ref=e65] [cursor=pointer]:
+        - /url: /expert/help-center
+        - img [ref=e67]
+        - generic [ref=e70]: Help Center
+      - link "Payouts" [ref=e71] [cursor=pointer]:
+        - /url: /expert/payouts
+        - img [ref=e73]
+        - generic [ref=e76]: Payouts
+      - link "Settings" [ref=e77] [cursor=pointer]:
+        - /url: /expert/settings
+        - img [ref=e79]
+        - generic [ref=e82]: Settings
+    - generic [ref=e84]:
+      - generic [ref=e85]:
+        - button [ref=e86] [cursor=pointer]:
+          - img [ref=e87]
+        - heading "Appointment Details" [level=5] [ref=e89]
+      - generic [ref=e90]:
+        - generic [ref=e94]:
+          - generic [ref=e95]:
+            - img [ref=e97]
+            - generic [ref=e99]:
+              - generic [ref=e101]: Follow up Consult
+              - heading "test user-465673" [level=6] [ref=e102]
+              - paragraph [ref=e103]: "Patient ID: 703484"
+          - separator [ref=e104]
+          - generic [ref=e105]:
+            - heading "Contact Information" [level=6] [ref=e106]
+            - generic [ref=e109]:
+              - img [ref=e110]
+              - paragraph [ref=e112]: Australia
+          - button "View Details" [ref=e114] [cursor=pointer]:
+            - img [ref=e116]
+            - text: View Details
+        - generic [ref=e121]:
+          - generic [ref=e122]:
+            - heading "Appointment Details" [level=6] [ref=e123]
+            - paragraph [ref=e124]: Completed
+          - generic [ref=e125]:
+            - generic [ref=e127]:
+              - img [ref=e128]
+              - paragraph [ref=e130]: 17 Mar 2026
+            - generic [ref=e132]:
+              - img [ref=e133]
+              - paragraph [ref=e136]: 09:00 AM(Australia/Sydney)
+            - paragraph [ref=e138]: "Duration: 30 Minutes"
+            - paragraph [ref=e140]: "Mode: Video Call"
+          - separator [ref=e141]
+          - generic [ref=e142]:
+            - heading "Expert Information" [level=6] [ref=e143]
+            - paragraph [ref=e144]: Dr Anthony Smith
+            - generic [ref=e146]: Natural Medicine
+        - generic [ref=e151]:
+          - generic [ref=e152]:
+            - heading "Comments" [level=6] [ref=e153]
+            - button "Refresh" [ref=e154] [cursor=pointer]:
+              - img [ref=e156]
+              - text: Refresh
+          - generic [ref=e158]:
+            - heading "Add Note or Comment" [level=6] [ref=e159]
+            - generic [ref=e160]:
+              - generic [ref=e162]:
+                - textbox "Type your note or comment here..." [ref=e163]
+                - group
+              - button "Send" [disabled]:
+                - generic:
+                  - img
+                - text: Send
+          - separator [ref=e164]
+          - generic [ref=e165]:
+            - heading "Previous Notes & Comments" [level=6] [ref=e166]
+            - paragraph [ref=e168]: No notes or comments yet. Add the first one above!
+```
