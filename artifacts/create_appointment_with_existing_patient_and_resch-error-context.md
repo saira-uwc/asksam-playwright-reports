@@ -67,57 +67,53 @@
             - img [ref=e97]
             - generic [ref=e99]:
               - generic [ref=e101]: Follow up Consult
-              - heading "Testtt The Sairaa" [level=6] [ref=e102]
-              - paragraph [ref=e103]: "Patient ID: 644781"
+              - heading "test user-966584" [level=6] [ref=e102]
+              - paragraph [ref=e103]: "Patient ID: 703499"
           - separator [ref=e104]
           - generic [ref=e105]:
             - heading "Contact Information" [level=6] [ref=e106]
-            - generic [ref=e107]:
-              - generic [ref=e109]:
-                - img [ref=e110]
-                - paragraph [ref=e112]: +91 7569316675
-              - generic [ref=e114]:
-                - img [ref=e115]
-                - paragraph [ref=e117]: Australia
-          - button "View Details" [ref=e119] [cursor=pointer]:
-            - img [ref=e121]
+            - generic [ref=e109]:
+              - img [ref=e110]
+              - paragraph [ref=e112]: Australia
+          - button "View Details" [ref=e114] [cursor=pointer]:
+            - img [ref=e116]
             - text: View Details
-        - generic [ref=e126]:
-          - generic [ref=e127]:
-            - heading "Appointment Details" [level=6] [ref=e128]
-            - paragraph [ref=e129]: Completed
-          - generic [ref=e130]:
+        - generic [ref=e121]:
+          - generic [ref=e122]:
+            - heading "Appointment Details" [level=6] [ref=e123]
+            - paragraph [ref=e124]: Completed
+          - generic [ref=e125]:
+            - generic [ref=e127]:
+              - img [ref=e128]
+              - paragraph [ref=e130]: 18 Mar 2026
             - generic [ref=e132]:
               - img [ref=e133]
-              - paragraph [ref=e135]: 17 Mar 2026
-            - generic [ref=e137]:
-              - img [ref=e138]
-              - paragraph [ref=e141]: 11:30 AM(Australia/Sydney)
-            - paragraph [ref=e143]: "Duration: 30 Minutes"
-            - paragraph [ref=e145]: "Mode: Video Call"
-          - separator [ref=e146]
-          - generic [ref=e147]:
-            - heading "Expert Information" [level=6] [ref=e148]
-            - paragraph [ref=e149]: Dr Anthony Smith
-            - generic [ref=e151]: Natural Medicine
-        - generic [ref=e156]:
-          - generic [ref=e157]:
-            - heading "Comments" [level=6] [ref=e158]
-            - button "Refresh" [ref=e159] [cursor=pointer]:
-              - img [ref=e161]
+              - paragraph [ref=e136]: 08:00 AM(Australia/Sydney)
+            - paragraph [ref=e138]: "Duration: 30 Minutes"
+            - paragraph [ref=e140]: "Mode: Video Call"
+          - separator [ref=e141]
+          - generic [ref=e142]:
+            - heading "Expert Information" [level=6] [ref=e143]
+            - paragraph [ref=e144]: Dr Anthony Smith
+            - generic [ref=e146]: Natural Medicine
+        - generic [ref=e151]:
+          - generic [ref=e152]:
+            - heading "Comments" [level=6] [ref=e153]
+            - button "Refresh" [ref=e154] [cursor=pointer]:
+              - img [ref=e156]
               - text: Refresh
-          - generic [ref=e163]:
-            - heading "Add Note or Comment" [level=6] [ref=e164]
-            - generic [ref=e165]:
-              - generic [ref=e167]:
-                - textbox "Type your note or comment here..." [ref=e168]
+          - generic [ref=e158]:
+            - heading "Add Note or Comment" [level=6] [ref=e159]
+            - generic [ref=e160]:
+              - generic [ref=e162]:
+                - textbox "Type your note or comment here..." [ref=e163]
                 - group
               - button "Send" [disabled]:
                 - generic:
                   - img
                 - text: Send
-          - separator [ref=e169]
-          - generic [ref=e170]:
-            - heading "Previous Notes & Comments" [level=6] [ref=e171]
-            - paragraph [ref=e173]: No notes or comments yet. Add the first one above!
+          - separator [ref=e164]
+          - generic [ref=e165]:
+            - heading "Previous Notes & Comments" [level=6] [ref=e166]
+            - paragraph [ref=e168]: No notes or comments yet. Add the first one above!
 ```

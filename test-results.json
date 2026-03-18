@@ -1,10 +1,16 @@
 {
-  "lastUpdated": "2026-03-17T11:55:10.548Z",
+  "lastUpdated": "2026-03-18T03:51:51.188Z",
   "runs": [
     {
+      "date": "2026-03-18",
+      "passed": 13,
+      "failed": 4,
+      "total": 17
+    },
+    {
       "date": "2026-03-17",
-      "passed": 15,
-      "failed": 2,
+      "passed": 17,
+      "failed": 0,
       "total": 17
     },
     {
@@ -54,12 +60,6 @@
       "passed": 10,
       "failed": 2,
       "total": 12
-    },
-    {
-      "date": "08 Feb",
-      "passed": 12,
-      "failed": 0,
-      "total": 12
     }
   ],
   "tests": [
@@ -68,7 +68,7 @@
       "module": "Expert-Dashboard",
       "name": "authenticate",
       "status": "passed",
-      "duration": "9.6s",
+      "duration": "10.3s",
       "screenshot": "",
       "video": "",
       "trace": ""
@@ -78,7 +78,7 @@
       "module": "Expert-Dashboard",
       "name": "Expert Dashboard | Appointment booking (dynamic slots)",
       "status": "passed",
-      "duration": "30.1s",
+      "duration": "23.6s",
       "screenshot": "",
       "video": "",
       "trace": ""
@@ -88,7 +88,7 @@
       "module": "Expert-Dashboard",
       "name": "create appointment with existing patient and reschedule",
       "status": "failed",
-      "duration": "51.7s",
+      "duration": "46.3s",
       "screenshot": "./artifacts/create_appointment_with_existing_patient_and_resch-screenshot.png",
       "video": "./artifacts/create_appointment_with_existing_patient_and_resch-video.webm",
       "trace": "./artifacts/create_appointment_with_existing_patient_and_resch-trace.zip"
@@ -98,7 +98,7 @@
       "module": "Expert-Dashboard",
       "name": "create appointment and manage session lifecycle",
       "status": "passed",
-      "duration": "36.4s",
+      "duration": "30.3s",
       "screenshot": "",
       "video": "",
       "trace": ""
@@ -108,7 +108,7 @@
       "module": "Expert-Dashboard",
       "name": "create appointment with existing patient and cancel non-cancelled one",
       "status": "failed",
-      "duration": "30.6s",
+      "duration": "23.9s",
       "screenshot": "./artifacts/create_appointment_with_existing_patient_and_cance-screenshot.png",
       "video": "./artifacts/create_appointment_with_existing_patient_and_cance-video.webm",
       "trace": "./artifacts/create_appointment_with_existing_patient_and_cance-trace.zip"
@@ -118,7 +118,7 @@
       "module": "Expert-Dashboard",
       "name": "Expert Dashboard | Create patient & book appointment",
       "status": "passed",
-      "duration": "48.3s",
+      "duration": "42.6s",
       "screenshot": "",
       "video": "",
       "trace": ""
@@ -128,7 +128,7 @@
       "module": "Expert-Dashboard",
       "name": "Expert Dashboard | Navigation flow validation",
       "status": "passed",
-      "duration": "12.5s",
+      "duration": "11.7s",
       "screenshot": "",
       "video": "",
       "trace": ""
@@ -138,7 +138,7 @@
       "module": "Expert-Dashboard",
       "name": "Expert Dashboard | Help Center raise & reply ticket",
       "status": "passed",
-      "duration": "10.1s",
+      "duration": "11.0s",
       "screenshot": "",
       "video": "",
       "trace": ""
@@ -148,7 +148,7 @@
       "module": "Expert-Dashboard",
       "name": "create unique patient, search and view profile",
       "status": "passed",
-      "duration": "26.5s",
+      "duration": "25.8s",
       "screenshot": "",
       "video": "",
       "trace": ""
@@ -157,18 +157,18 @@
       "id": 10,
       "module": "CCOP",
       "name": "AI panel — Graph tab: knowledge graph, zoom controls, node properties, legends",
-      "status": "passed",
-      "duration": "28.8s",
-      "screenshot": "",
-      "video": "",
-      "trace": ""
+      "status": "failed",
+      "duration": "27.8s",
+      "screenshot": "./artifacts/ai_panel___graph_tab__knowledge_graph__zoom_contro-screenshot.png",
+      "video": "./artifacts/ai_panel___graph_tab__knowledge_graph__zoom_contro-video.webm",
+      "trace": "./artifacts/ai_panel___graph_tab__knowledge_graph__zoom_contro-trace.zip"
     },
     {
       "id": 11,
       "module": "CCOP",
       "name": "AI panel — Assistant tab: associations, medication & comorbidity sub-tabs",
       "status": "passed",
-      "duration": "34.5s",
+      "duration": "32.4s",
       "screenshot": "",
       "video": "",
       "trace": ""
@@ -178,7 +178,7 @@
       "module": "CCOP",
       "name": "AI panel — asksam tab: chat input, send message, disclaimer",
       "status": "passed",
-      "duration": "38.8s",
+      "duration": "39.1s",
       "screenshot": "",
       "video": "",
       "trace": ""
@@ -188,7 +188,7 @@
       "module": "CCOP",
       "name": "CCOP | Help Center | Raise, Reply & Resolve Ticket",
       "status": "passed",
-      "duration": "12.4s",
+      "duration": "10.4s",
       "screenshot": "",
       "video": "",
       "trace": ""
@@ -198,7 +198,7 @@
       "module": "CCOP",
       "name": "Create clinical note with document upload & transcription",
       "status": "passed",
-      "duration": "49.4s",
+      "duration": "48.2s",
       "screenshot": "",
       "video": "",
       "trace": ""
@@ -208,7 +208,7 @@
       "module": "CCOP",
       "name": "Create patient + upload + submit",
       "status": "passed",
-      "duration": "1m 2s",
+      "duration": "56.8s",
       "screenshot": "",
       "video": "",
       "trace": ""
@@ -217,18 +217,18 @@
       "id": 16,
       "module": "CCOP",
       "name": "Open letter template from Actions dropdown, select type and verify preview",
-      "status": "passed",
-      "duration": "17.3s",
-      "screenshot": "",
-      "video": "",
-      "trace": ""
+      "status": "failed",
+      "duration": "27.7s",
+      "screenshot": "./artifacts/open_letter_template_from_actions_dropdown__select-screenshot.png",
+      "video": "./artifacts/open_letter_template_from_actions_dropdown__select-video.webm",
+      "trace": "./artifacts/open_letter_template_from_actions_dropdown__select-trace.zip"
     },
     {
       "id": 17,
       "module": "CCOP",
       "name": "Create a new letter template from Actions dropdown",
       "status": "passed",
-      "duration": "29.5s",
+      "duration": "27.9s",
       "screenshot": "",
       "video": "",
       "trace": ""
