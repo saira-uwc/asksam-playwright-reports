@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-03-18T03:51:51.188Z",
+  "lastUpdated": "2026-03-18T08:26:18.330Z",
   "runs": [
     {
       "date": "2026-03-18",
-      "passed": 13,
-      "failed": 4,
+      "passed": 15,
+      "failed": 2,
       "total": 17
     },
     {
@@ -68,7 +68,7 @@
       "module": "Expert-Dashboard",
       "name": "authenticate",
       "status": "passed",
-      "duration": "10.3s",
+      "duration": "8.2s",
       "screenshot": "",
       "video": "",
       "trace": ""
@@ -78,7 +78,7 @@
       "module": "Expert-Dashboard",
       "name": "Expert Dashboard | Appointment booking (dynamic slots)",
       "status": "passed",
-      "duration": "23.6s",
+      "duration": "28.8s",
       "screenshot": "",
       "video": "",
       "trace": ""
@@ -88,7 +88,7 @@
       "module": "Expert-Dashboard",
       "name": "create appointment with existing patient and reschedule",
       "status": "failed",
-      "duration": "46.3s",
+      "duration": "46.6s",
       "screenshot": "./artifacts/create_appointment_with_existing_patient_and_resch-screenshot.png",
       "video": "./artifacts/create_appointment_with_existing_patient_and_resch-video.webm",
       "trace": "./artifacts/create_appointment_with_existing_patient_and_resch-trace.zip"
@@ -98,7 +98,7 @@
       "module": "Expert-Dashboard",
       "name": "create appointment and manage session lifecycle",
       "status": "passed",
-      "duration": "30.3s",
+      "duration": "30.8s",
       "screenshot": "",
       "video": "",
       "trace": ""
@@ -108,7 +108,7 @@
       "module": "Expert-Dashboard",
       "name": "create appointment with existing patient and cancel non-cancelled one",
       "status": "failed",
-      "duration": "23.9s",
+      "duration": "24.7s",
       "screenshot": "./artifacts/create_appointment_with_existing_patient_and_cance-screenshot.png",
       "video": "./artifacts/create_appointment_with_existing_patient_and_cance-video.webm",
       "trace": "./artifacts/create_appointment_with_existing_patient_and_cance-trace.zip"
@@ -118,7 +118,7 @@
       "module": "Expert-Dashboard",
       "name": "Expert Dashboard | Create patient & book appointment",
       "status": "passed",
-      "duration": "42.6s",
+      "duration": "42.0s",
       "screenshot": "",
       "video": "",
       "trace": ""
@@ -128,7 +128,7 @@
       "module": "Expert-Dashboard",
       "name": "Expert Dashboard | Navigation flow validation",
       "status": "passed",
-      "duration": "11.7s",
+      "duration": "12.2s",
       "screenshot": "",
       "video": "",
       "trace": ""
@@ -138,7 +138,7 @@
       "module": "Expert-Dashboard",
       "name": "Expert Dashboard | Help Center raise & reply ticket",
       "status": "passed",
-      "duration": "11.0s",
+      "duration": "10.0s",
       "screenshot": "",
       "video": "",
       "trace": ""
@@ -148,7 +148,7 @@
       "module": "Expert-Dashboard",
       "name": "create unique patient, search and view profile",
       "status": "passed",
-      "duration": "25.8s",
+      "duration": "25.9s",
       "screenshot": "",
       "video": "",
       "trace": ""
@@ -157,18 +157,18 @@
       "id": 10,
       "module": "CCOP",
       "name": "AI panel — Graph tab: knowledge graph, zoom controls, node properties, legends",
-      "status": "failed",
-      "duration": "27.8s",
-      "screenshot": "./artifacts/ai_panel___graph_tab__knowledge_graph__zoom_contro-screenshot.png",
-      "video": "./artifacts/ai_panel___graph_tab__knowledge_graph__zoom_contro-video.webm",
-      "trace": "./artifacts/ai_panel___graph_tab__knowledge_graph__zoom_contro-trace.zip"
+      "status": "passed",
+      "duration": "27.7s",
+      "screenshot": "",
+      "video": "",
+      "trace": ""
     },
     {
       "id": 11,
       "module": "CCOP",
       "name": "AI panel — Assistant tab: associations, medication & comorbidity sub-tabs",
       "status": "passed",
-      "duration": "32.4s",
+      "duration": "31.3s",
       "screenshot": "",
       "video": "",
       "trace": ""
@@ -178,7 +178,7 @@
       "module": "CCOP",
       "name": "AI panel — asksam tab: chat input, send message, disclaimer",
       "status": "passed",
-      "duration": "39.1s",
+      "duration": "38.1s",
       "screenshot": "",
       "video": "",
       "trace": ""
@@ -188,7 +188,7 @@
       "module": "CCOP",
       "name": "CCOP | Help Center | Raise, Reply & Resolve Ticket",
       "status": "passed",
-      "duration": "10.4s",
+      "duration": "10.8s",
       "screenshot": "",
       "video": "",
       "trace": ""
@@ -198,7 +198,7 @@
       "module": "CCOP",
       "name": "Create clinical note with document upload & transcription",
       "status": "passed",
-      "duration": "48.2s",
+      "duration": "48.9s",
       "screenshot": "",
       "video": "",
       "trace": ""
@@ -208,7 +208,7 @@
       "module": "CCOP",
       "name": "Create patient + upload + submit",
       "status": "passed",
-      "duration": "56.8s",
+      "duration": "57.3s",
       "screenshot": "",
       "video": "",
       "trace": ""
@@ -217,18 +217,18 @@
       "id": 16,
       "module": "CCOP",
       "name": "Open letter template from Actions dropdown, select type and verify preview",
-      "status": "failed",
-      "duration": "27.7s",
-      "screenshot": "./artifacts/open_letter_template_from_actions_dropdown__select-screenshot.png",
-      "video": "./artifacts/open_letter_template_from_actions_dropdown__select-video.webm",
-      "trace": "./artifacts/open_letter_template_from_actions_dropdown__select-trace.zip"
+      "status": "passed",
+      "duration": "17.4s",
+      "screenshot": "",
+      "video": "",
+      "trace": ""
     },
     {
       "id": 17,
       "module": "CCOP",
       "name": "Create a new letter template from Actions dropdown",
       "status": "passed",
-      "duration": "27.9s",
+      "duration": "28.5s",
       "screenshot": "",
       "video": "",
       "trace": ""
