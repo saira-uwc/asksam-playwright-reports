@@ -1,7 +1,7 @@
 {
-  "id": "484e6628-0b20-4ab0-a90f-513c90e7451c",
-  "startedAt": "2026-03-19T06:21:09.159Z",
-  "durationMs": 586660.294,
+  "id": "a5602b00-4c4a-4148-86b5-c2fc8e566122",
+  "startedAt": "2026-03-19T07:35:51.391Z",
+  "durationMs": 603639.463,
   "summary": {
     "total": 18,
     "passed": 15,
@@ -32,7 +32,7 @@
     {
       "title": "authenticate",
       "status": "passed",
-      "durationMs": 11726,
+      "durationMs": 9271,
       "file": "Expert-Dashboard/auth.setup.js",
       "module": "Expert-Dashboard",
       "moduleLabel": "Expert Dashboard",
@@ -53,7 +53,7 @@
     {
       "title": "Expert Dashboard | Appointment booking (dynamic slots)",
       "status": "passed",
-      "durationMs": 23956,
+      "durationMs": 29141,
       "file": "Expert-Dashboard/appointment-booking.spec.js",
       "module": "Expert-Dashboard",
       "moduleLabel": "Expert Dashboard",
@@ -74,7 +74,7 @@
     {
       "title": "create appointment with existing patient and reschedule",
       "status": "failed",
-      "durationMs": 33266,
+      "durationMs": 37973,
       "file": "Expert-Dashboard/appointment-create-and-reschedule.spec.js",
       "module": "Expert-Dashboard",
       "moduleLabel": "Expert Dashboard",
@@ -104,12 +104,12 @@
           "webPath": "./artifacts/create_appointment_with_existing_patient_and_resch-trace.zip"
         }
       ],
-      "error": "Error: No active (non-completed, non-cancelled) appointment found\n\n   at ../pages/expert-appointment.page.js:216\n\n  214 |     }\n  215 |\n> 216 |     throw new Error('No active (non-completed, non-cancelled) appointment found');\n      |           ^\n  217 |   }\n  218 |   async openReschedule() {\n  219 |     const rescheduleBtn = this.page.getByRole('button', {\n    at ExpertAppointmentPage.openFirstAppointment (/home/runner/work/playwrite/playwrite/pages/expert-appointment.page.js:216:11)\n    at /ho"
+      "error": "Error: No active (non-completed, non-cancelled) appointment found\n\n   at ../pages/expert-appointment.page.js:232\n\n  230 |     }\n  231 |\n> 232 |     throw new Error('No active (non-completed, non-cancelled) appointment found');\n      |           ^\n  233 |   }\n  234 |   async openReschedule() {\n  235 |     // Wait for the appointment details panel to fully load\n    at ExpertAppointmentPage.openFirstAppointment (/home/runner/work/playwrite/playwrite/pages/expert-appointment.page.js:232:11)\n    at /"
     },
     {
       "title": "create appointment and manage session lifecycle",
       "status": "passed",
-      "durationMs": 35708,
+      "durationMs": 34102,
       "file": "Expert-Dashboard/appointment-session-management.spec.js",
       "module": "Expert-Dashboard",
       "moduleLabel": "Expert Dashboard",
@@ -130,7 +130,7 @@
     {
       "title": "create appointment with existing patient and cancel non-cancelled one",
       "status": "failed",
-      "durationMs": 33285,
+      "durationMs": 37604,
       "file": "Expert-Dashboard/appointment-z-cancel.spec.js",
       "module": "Expert-Dashboard",
       "moduleLabel": "Expert Dashboard",
@@ -160,12 +160,12 @@
           "webPath": "./artifacts/create_appointment_with_existing_patient_and_cance-trace.zip"
         }
       ],
-      "error": "Error: No non-cancelled appointment found to cancel\n\n   at ../pages/expert-appointment.page.js:369\n\n  367 |   }\n  368 |\n> 369 |   throw new Error('No non-cancelled appointment found to cancel');\n      |         ^\n  370 | }\n  371 |\n  372 | /* ===============================\n    at ExpertAppointmentPage.openAndCancelNonCancelledAppointment (/home/runner/work/playwrite/playwrite/pages/expert-appointment.page.js:369:9)\n    at /home/runner/work/playwrite/playwrite/tests/Expert-Dashboard/appointment-z"
+      "error": "Error: No non-cancelled appointment found to cancel\n\n   at ../pages/expert-appointment.page.js:407\n\n  405 |   }\n  406 |\n> 407 |   throw new Error('No non-cancelled appointment found to cancel');\n      |         ^\n  408 | }\n  409 |\n  410 | /* ===============================\n    at ExpertAppointmentPage.openAndCancelNonCancelledAppointment (/home/runner/work/playwrite/playwrite/pages/expert-appointment.page.js:407:9)\n    at /home/runner/work/playwrite/playwrite/tests/Expert-Dashboard/appointment-z"
     },
     {
       "title": "Expert Dashboard | Create patient & book appointment",
       "status": "passed",
-      "durationMs": 46607,
+      "durationMs": 46779,
       "file": "Expert-Dashboard/expert-appointment-create-with-new-patient.spec.js",
       "module": "Expert-Dashboard",
       "moduleLabel": "Expert Dashboard",
@@ -186,7 +186,7 @@
     {
       "title": "Expert Dashboard | Navigation flow validation",
       "status": "passed",
-      "durationMs": 12754,
+      "durationMs": 11762,
       "file": "Expert-Dashboard/expert-dashboard-navigation.spec.js",
       "module": "Expert-Dashboard",
       "moduleLabel": "Expert Dashboard",
@@ -207,7 +207,7 @@
     {
       "title": "Expert Dashboard | Help Center raise & reply ticket",
       "status": "passed",
-      "durationMs": 9491,
+      "durationMs": 9879,
       "file": "Expert-Dashboard/expert-helpcenter-ticket.spec.js",
       "module": "Expert-Dashboard",
       "moduleLabel": "Expert Dashboard",
@@ -228,7 +228,7 @@
     {
       "title": "create unique patient, search and view profile",
       "status": "passed",
-      "durationMs": 24640,
+      "durationMs": 22994,
       "file": "Expert-Dashboard/patient-create-and-view.spec.js",
       "module": "Expert-Dashboard",
       "moduleLabel": "Expert Dashboard",
@@ -249,7 +249,7 @@
     {
       "title": "AI panel — Graph tab: knowledge graph, zoom controls, node properties, legends",
       "status": "passed",
-      "durationMs": 28564,
+      "durationMs": 27375,
       "file": "CCOP/ai-assistant-panel.spec.js",
       "module": "CCOP",
       "moduleLabel": "CCOP",
@@ -270,7 +270,7 @@
     {
       "title": "AI panel — Assistant tab: associations, medication & comorbidity sub-tabs",
       "status": "passed",
-      "durationMs": 31731,
+      "durationMs": 31769,
       "file": "CCOP/ai-assistant-panel.spec.js",
       "module": "CCOP",
       "moduleLabel": "CCOP",
@@ -291,7 +291,7 @@
     {
       "title": "AI panel — asksam tab: chat input, send message, disclaimer",
       "status": "passed",
-      "durationMs": 38566,
+      "durationMs": 38607,
       "file": "CCOP/ai-assistant-panel.spec.js",
       "module": "CCOP",
       "moduleLabel": "CCOP",
@@ -312,7 +312,7 @@
     {
       "title": "CCOP | Help Center | Raise, Reply & Resolve Ticket",
       "status": "passed",
-      "durationMs": 10168,
+      "durationMs": 10562,
       "file": "CCOP/ccop-helpcenter-ticket.spec.js",
       "module": "CCOP",
       "moduleLabel": "CCOP",
@@ -333,7 +333,7 @@
     {
       "title": "Create clinical note with document upload & transcription",
       "status": "passed",
-      "durationMs": 62012,
+      "durationMs": 56855,
       "file": "CCOP/clinical-note.spec.js",
       "module": "CCOP",
       "moduleLabel": "CCOP",
@@ -354,7 +354,7 @@
     {
       "title": "Create patient + upload + submit",
       "status": "passed",
-      "durationMs": 64008,
+      "durationMs": 68967,
       "file": "CCOP/create-patient-clinical-note.spec.js",
       "module": "CCOP",
       "moduleLabel": "CCOP",
@@ -375,7 +375,7 @@
     {
       "title": "Open letter template from Actions dropdown, select type and verify preview",
       "status": "passed",
-      "durationMs": 15361,
+      "durationMs": 13575,
       "file": "CCOP/letter-template.spec.js",
       "module": "CCOP",
       "moduleLabel": "CCOP",
@@ -396,7 +396,7 @@
     {
       "title": "Create a new letter template from Actions dropdown",
       "status": "passed",
-      "durationMs": 28767,
+      "durationMs": 29035,
       "file": "CCOP/letter-template.spec.js",
       "module": "CCOP",
       "moduleLabel": "CCOP",

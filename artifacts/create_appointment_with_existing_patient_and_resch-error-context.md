@@ -403,13 +403,8 @@
             - listitem [ref=e521]:
               - generic [ref=e522]: …
             - listitem [ref=e523]:
-              - button "Go to page 8" [ref=e524] [cursor=pointer]: "8"
+              - button "Go to page 9" [ref=e524] [cursor=pointer]: "9"
             - listitem [ref=e525]:
               - button "Go to next page" [ref=e526] [cursor=pointer]:
                 - img [ref=e527]
-      - alert [ref=e529]:
-        - img [ref=e531]
-        - generic [ref=e533]: Appointment Booked Successfully!
-        - button "Close" [ref=e535] [cursor=pointer]:
-          - img [ref=e536]
 ```
