@@ -1,21 +1,21 @@
 {
-  "id": "4aa1796f-9acb-40b7-bcfe-a7136a5acdb6",
-  "startedAt": "2026-03-23T06:19:18.952Z",
-  "durationMs": 684363.812,
+  "id": "c9d955a0-8ff1-4bff-a45b-b77d43a7b32e",
+  "startedAt": "2026-03-23T08:37:09.002Z",
+  "durationMs": 652078.644,
   "summary": {
     "total": 18,
-    "passed": 15,
-    "failed": 2,
+    "passed": 17,
+    "failed": 0,
     "skipped": 1,
     "timedOut": 0
   },
-  "passRate": 88,
+  "passRate": 100,
   "modules": {
     "Expert-Dashboard": {
       "label": "Expert Dashboard",
       "total": 9,
-      "passed": 7,
-      "failed": 2,
+      "passed": 9,
+      "failed": 0,
       "skipped": 0,
       "timedOut": 0
     },
@@ -32,7 +32,7 @@
     {
       "title": "authenticate",
       "status": "passed",
-      "durationMs": 9392,
+      "durationMs": 8401,
       "file": "Expert-Dashboard/auth.setup.js",
       "module": "Expert-Dashboard",
       "moduleLabel": "Expert Dashboard",
@@ -53,7 +53,7 @@
     {
       "title": "Expert Dashboard | Appointment booking (dynamic slots)",
       "status": "passed",
-      "durationMs": 23487,
+      "durationMs": 23174,
       "file": "Expert-Dashboard/appointment-booking.spec.js",
       "module": "Expert-Dashboard",
       "moduleLabel": "Expert Dashboard",
@@ -73,43 +73,29 @@
     },
     {
       "title": "create appointment with existing patient and reschedule",
-      "status": "failed",
-      "durationMs": 27933,
+      "status": "passed",
+      "durationMs": 86543,
       "file": "Expert-Dashboard/appointment-create-and-reschedule.spec.js",
       "module": "Expert-Dashboard",
       "moduleLabel": "Expert Dashboard",
       "attachments": [
         {
           "name": "screenshot",
-          "path": "test-failed-1.png",
-          "contentType": "image/png",
-          "webPath": "./artifacts/create_appointment_with_existing_patient_and_resch-screenshot.png"
+          "path": "test-finished-1.png",
+          "contentType": "image/png"
         },
         {
           "name": "video",
           "path": "video.webm",
-          "contentType": "video/webm",
-          "webPath": "./artifacts/create_appointment_with_existing_patient_and_resch-video.webm"
-        },
-        {
-          "name": "error-context",
-          "path": "error-context.md",
-          "contentType": "text/markdown",
-          "webPath": "./artifacts/create_appointment_with_existing_patient_and_resch-error-context.md"
-        },
-        {
-          "name": "trace",
-          "path": "trace.zip",
-          "contentType": "application/zip",
-          "webPath": "./artifacts/create_appointment_with_existing_patient_and_resch-trace.zip"
+          "contentType": "video/webm"
         }
       ],
-      "error": "Error: No active (non-completed, non-cancelled) appointment found\n\n   at ../pages/expert-appointment.page.js:232\n\n  230 |     }\n  231 |\n> 232 |     throw new Error('No active (non-completed, non-cancelled) appointment found');\n      |           ^\n  233 |   }\n  234 |   async openReschedule() {\n  235 |     // Wait for the appointment details panel to fully load\n    at ExpertAppointmentPage.openFirstAppointment (/home/runner/work/playwrite/playwrite/pages/expert-appointment.page.js:232:11)\n    at /"
+      "error": ""
     },
     {
       "title": "create appointment and manage session lifecycle",
       "status": "passed",
-      "durationMs": 24958,
+      "durationMs": 24232,
       "file": "Expert-Dashboard/appointment-session-management.spec.js",
       "module": "Expert-Dashboard",
       "moduleLabel": "Expert Dashboard",
@@ -129,43 +115,29 @@
     },
     {
       "title": "create appointment with existing patient and cancel non-cancelled one",
-      "status": "failed",
-      "durationMs": 28107,
+      "status": "passed",
+      "durationMs": 71141,
       "file": "Expert-Dashboard/appointment-z-cancel.spec.js",
       "module": "Expert-Dashboard",
       "moduleLabel": "Expert Dashboard",
       "attachments": [
         {
           "name": "screenshot",
-          "path": "test-failed-1.png",
-          "contentType": "image/png",
-          "webPath": "./artifacts/create_appointment_with_existing_patient_and_cance-screenshot.png"
+          "path": "test-finished-1.png",
+          "contentType": "image/png"
         },
         {
           "name": "video",
           "path": "video.webm",
-          "contentType": "video/webm",
-          "webPath": "./artifacts/create_appointment_with_existing_patient_and_cance-video.webm"
-        },
-        {
-          "name": "error-context",
-          "path": "error-context.md",
-          "contentType": "text/markdown",
-          "webPath": "./artifacts/create_appointment_with_existing_patient_and_cance-error-context.md"
-        },
-        {
-          "name": "trace",
-          "path": "trace.zip",
-          "contentType": "application/zip",
-          "webPath": "./artifacts/create_appointment_with_existing_patient_and_cance-trace.zip"
+          "contentType": "video/webm"
         }
       ],
-      "error": "Error: No non-cancelled appointment found to cancel\n\n   at ../pages/expert-appointment.page.js:407\n\n  405 |   }\n  406 |\n> 407 |   throw new Error('No non-cancelled appointment found to cancel');\n      |         ^\n  408 | }\n  409 |\n  410 | /* ===============================\n    at ExpertAppointmentPage.openAndCancelNonCancelledAppointment (/home/runner/work/playwrite/playwrite/pages/expert-appointment.page.js:407:9)\n    at /home/runner/work/playwrite/playwrite/tests/Expert-Dashboard/appointment-z"
+      "error": ""
     },
     {
       "title": "Expert Dashboard | Create patient & book appointment",
       "status": "passed",
-      "durationMs": 37403,
+      "durationMs": 34754,
       "file": "Expert-Dashboard/expert-appointment-create-with-new-patient.spec.js",
       "module": "Expert-Dashboard",
       "moduleLabel": "Expert Dashboard",
@@ -186,7 +158,7 @@
     {
       "title": "Expert Dashboard | Navigation flow validation",
       "status": "passed",
-      "durationMs": 12272,
+      "durationMs": 11905,
       "file": "Expert-Dashboard/expert-dashboard-navigation.spec.js",
       "module": "Expert-Dashboard",
       "moduleLabel": "Expert Dashboard",
@@ -207,7 +179,7 @@
     {
       "title": "Expert Dashboard | Help Center raise & reply ticket",
       "status": "passed",
-      "durationMs": 9822,
+      "durationMs": 10068,
       "file": "Expert-Dashboard/expert-helpcenter-ticket.spec.js",
       "module": "Expert-Dashboard",
       "moduleLabel": "Expert Dashboard",
@@ -228,7 +200,7 @@
     {
       "title": "create unique patient, search and view profile",
       "status": "passed",
-      "durationMs": 29782,
+      "durationMs": 23746,
       "file": "Expert-Dashboard/patient-create-and-view.spec.js",
       "module": "Expert-Dashboard",
       "moduleLabel": "Expert Dashboard",
@@ -249,7 +221,7 @@
     {
       "title": "AI panel — Graph tab: knowledge graph, zoom controls, node properties, legends",
       "status": "passed",
-      "durationMs": 28789,
+      "durationMs": 28838,
       "file": "CCOP/ai-assistant-panel.spec.js",
       "module": "CCOP",
       "moduleLabel": "CCOP",
@@ -270,7 +242,7 @@
     {
       "title": "AI panel — Assistant tab: associations, medication & comorbidity sub-tabs",
       "status": "passed",
-      "durationMs": 32737,
+      "durationMs": 31858,
       "file": "CCOP/ai-assistant-panel.spec.js",
       "module": "CCOP",
       "moduleLabel": "CCOP",
@@ -291,7 +263,7 @@
     {
       "title": "AI panel — asksam tab: chat input, send message, disclaimer",
       "status": "passed",
-      "durationMs": 37850,
+      "durationMs": 38247,
       "file": "CCOP/ai-assistant-panel.spec.js",
       "module": "CCOP",
       "moduleLabel": "CCOP",
@@ -312,7 +284,7 @@
     {
       "title": "CCOP | Help Center | Raise, Reply & Resolve Ticket",
       "status": "passed",
-      "durationMs": 10041,
+      "durationMs": 9143,
       "file": "CCOP/ccop-helpcenter-ticket.spec.js",
       "module": "CCOP",
       "moduleLabel": "CCOP",
@@ -333,7 +305,7 @@
     {
       "title": "Create clinical note with document upload & transcription",
       "status": "passed",
-      "durationMs": 57976,
+      "durationMs": 58906,
       "file": "CCOP/clinical-note.spec.js",
       "module": "CCOP",
       "moduleLabel": "CCOP",
@@ -354,7 +326,7 @@
     {
       "title": "Create patient + upload + submit",
       "status": "passed",
-      "durationMs": 66223,
+      "durationMs": 68019,
       "file": "CCOP/create-patient-clinical-note.spec.js",
       "module": "CCOP",
       "moduleLabel": "CCOP",
@@ -375,7 +347,7 @@
     {
       "title": "Open letter template from Actions dropdown, select type and verify preview",
       "status": "passed",
-      "durationMs": 14723,
+      "durationMs": 14094,
       "file": "CCOP/letter-template.spec.js",
       "module": "CCOP",
       "moduleLabel": "CCOP",
@@ -396,7 +368,7 @@
     {
       "title": "Create a new letter template from Actions dropdown",
       "status": "passed",
-      "durationMs": 26724,
+      "durationMs": 28480,
       "file": "CCOP/letter-template.spec.js",
       "module": "CCOP",
       "moduleLabel": "CCOP",
