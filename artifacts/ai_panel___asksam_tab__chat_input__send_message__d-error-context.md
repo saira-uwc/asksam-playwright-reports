@@ -442,9 +442,9 @@
                         - generic [ref=e595]:
                           - paragraph [ref=e596]: Time
                           - generic [ref=e598]:
-                            - textbox "hh:mm aa" [disabled] [ref=e599]: 10:14 AM
+                            - textbox "hh:mm aa" [disabled] [ref=e599]: 10:16 AM
                             - generic [ref=e600]:
-                              - button "Choose time, selected time is 10:14 AM" [disabled]:
+                              - button "Choose time, selected time is 10:16 AM" [disabled]:
                                 - img
                             - group
                         - generic [ref=e601]:
