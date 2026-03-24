@@ -1,15 +1,15 @@
 {
-  "id": "1d728dc3-6c28-459f-b85c-3757830749aa",
-  "startedAt": "2026-03-24T10:08:38.358Z",
-  "durationMs": 668598.226,
+  "id": "2f8e6385-297a-47d7-84dd-ff162114d676",
+  "startedAt": "2026-03-24T11:12:52.789Z",
+  "durationMs": 533244.912,
   "summary": {
     "total": 18,
-    "passed": 14,
-    "failed": 3,
+    "passed": 17,
+    "failed": 0,
     "skipped": 1,
     "timedOut": 0
   },
-  "passRate": 82,
+  "passRate": 100,
   "modules": {
     "Expert-Dashboard": {
       "label": "Expert Dashboard",
@@ -22,8 +22,8 @@
     "CCOP": {
       "label": "CCOP",
       "total": 9,
-      "passed": 5,
-      "failed": 3,
+      "passed": 8,
+      "failed": 0,
       "skipped": 1,
       "timedOut": 0
     }
@@ -32,7 +32,7 @@
     {
       "title": "authenticate",
       "status": "passed",
-      "durationMs": 8898,
+      "durationMs": 8922,
       "file": "Expert-Dashboard/auth.setup.js",
       "module": "Expert-Dashboard",
       "moduleLabel": "Expert Dashboard",
@@ -53,7 +53,7 @@
     {
       "title": "Expert Dashboard | Appointment booking (dynamic slots)",
       "status": "passed",
-      "durationMs": 18730,
+      "durationMs": 19045,
       "file": "Expert-Dashboard/appointment-booking.spec.js",
       "module": "Expert-Dashboard",
       "moduleLabel": "Expert Dashboard",
@@ -74,7 +74,7 @@
     {
       "title": "create appointment with existing patient and reschedule",
       "status": "passed",
-      "durationMs": 68234,
+      "durationMs": 68373,
       "file": "Expert-Dashboard/appointment-create-and-reschedule.spec.js",
       "module": "Expert-Dashboard",
       "moduleLabel": "Expert Dashboard",
@@ -95,7 +95,7 @@
     {
       "title": "create appointment and manage session lifecycle",
       "status": "passed",
-      "durationMs": 23663,
+      "durationMs": 25183,
       "file": "Expert-Dashboard/appointment-session-management.spec.js",
       "module": "Expert-Dashboard",
       "moduleLabel": "Expert Dashboard",
@@ -116,7 +116,7 @@
     {
       "title": "create appointment with existing patient and cancel non-cancelled one",
       "status": "passed",
-      "durationMs": 65440,
+      "durationMs": 72448,
       "file": "Expert-Dashboard/appointment-z-cancel.spec.js",
       "module": "Expert-Dashboard",
       "moduleLabel": "Expert Dashboard",
@@ -137,7 +137,7 @@
     {
       "title": "Expert Dashboard | Create patient & book appointment",
       "status": "passed",
-      "durationMs": 40231,
+      "durationMs": 36050,
       "file": "Expert-Dashboard/expert-appointment-create-with-new-patient.spec.js",
       "module": "Expert-Dashboard",
       "moduleLabel": "Expert Dashboard",
@@ -158,7 +158,7 @@
     {
       "title": "Expert Dashboard | Navigation flow validation",
       "status": "passed",
-      "durationMs": 12041,
+      "durationMs": 12220,
       "file": "Expert-Dashboard/expert-dashboard-navigation.spec.js",
       "module": "Expert-Dashboard",
       "moduleLabel": "Expert Dashboard",
@@ -179,7 +179,7 @@
     {
       "title": "Expert Dashboard | Help Center raise & reply ticket",
       "status": "passed",
-      "durationMs": 9880,
+      "durationMs": 10997,
       "file": "Expert-Dashboard/expert-helpcenter-ticket.spec.js",
       "module": "Expert-Dashboard",
       "moduleLabel": "Expert Dashboard",
@@ -200,7 +200,7 @@
     {
       "title": "create unique patient, search and view profile",
       "status": "passed",
-      "durationMs": 22348,
+      "durationMs": 21977,
       "file": "Expert-Dashboard/patient-create-and-view.spec.js",
       "module": "Expert-Dashboard",
       "moduleLabel": "Expert Dashboard",
@@ -220,113 +220,71 @@
     },
     {
       "title": "AI panel — Graph tab: knowledge graph, zoom controls, node properties, legends",
-      "status": "failed",
-      "durationMs": 37949,
+      "status": "passed",
+      "durationMs": 27366,
       "file": "CCOP/ai-assistant-panel.spec.js",
       "module": "CCOP",
       "moduleLabel": "CCOP",
       "attachments": [
         {
           "name": "screenshot",
-          "path": "test-failed-1.png",
-          "contentType": "image/png",
-          "webPath": "./artifacts/ai_panel___graph_tab__knowledge_graph__zoom_contro-screenshot.png"
+          "path": "test-finished-1.png",
+          "contentType": "image/png"
         },
         {
           "name": "video",
           "path": "video.webm",
-          "contentType": "video/webm",
-          "webPath": "./artifacts/ai_panel___graph_tab__knowledge_graph__zoom_contro-video.webm"
-        },
-        {
-          "name": "error-context",
-          "path": "error-context.md",
-          "contentType": "text/markdown",
-          "webPath": "./artifacts/ai_panel___graph_tab__knowledge_graph__zoom_contro-error-context.md"
-        },
-        {
-          "name": "trace",
-          "path": "trace.zip",
-          "contentType": "application/zip",
-          "webPath": "./artifacts/ai_panel___graph_tab__knowledge_graph__zoom_contro-trace.zip"
+          "contentType": "video/webm"
         }
       ],
-      "error": "TimeoutError: locator.waitFor: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('asksam', { exact: true }).first() to be visible\u001b[22m\n\n\n   at ../pages/ai-assistant-panel.page.js:122\n\n  120 |       .getByText(\"asksam\", { exact: true })\n  121 |       .first()\n> 122 |       .waitFor({ state: \"visible\", timeout: 20000 });\n      |        ^\n  123 |     console.log(\"✅ AI Assistant panel opened\");\n  124 |   }\n  125 |\n    at AIAssistantPanelPage._waitForPanelOpen (/home/runner/work/playw"
+      "error": ""
     },
     {
       "title": "AI panel — Assistant tab: associations, medication & comorbidity sub-tabs",
-      "status": "failed",
-      "durationMs": 37756,
+      "status": "passed",
+      "durationMs": 31935,
       "file": "CCOP/ai-assistant-panel.spec.js",
       "module": "CCOP",
       "moduleLabel": "CCOP",
       "attachments": [
         {
           "name": "screenshot",
-          "path": "test-failed-1.png",
-          "contentType": "image/png",
-          "webPath": "./artifacts/ai_panel___assistant_tab__associations__medication-screenshot.png"
+          "path": "test-finished-1.png",
+          "contentType": "image/png"
         },
         {
           "name": "video",
           "path": "video.webm",
-          "contentType": "video/webm",
-          "webPath": "./artifacts/ai_panel___assistant_tab__associations__medication-video.webm"
-        },
-        {
-          "name": "error-context",
-          "path": "error-context.md",
-          "contentType": "text/markdown",
-          "webPath": "./artifacts/ai_panel___assistant_tab__associations__medication-error-context.md"
-        },
-        {
-          "name": "trace",
-          "path": "trace.zip",
-          "contentType": "application/zip",
-          "webPath": "./artifacts/ai_panel___assistant_tab__associations__medication-trace.zip"
+          "contentType": "video/webm"
         }
       ],
-      "error": "TimeoutError: locator.waitFor: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('asksam', { exact: true }).first() to be visible\u001b[22m\n\n\n   at ../pages/ai-assistant-panel.page.js:122\n\n  120 |       .getByText(\"asksam\", { exact: true })\n  121 |       .first()\n> 122 |       .waitFor({ state: \"visible\", timeout: 20000 });\n      |        ^\n  123 |     console.log(\"✅ AI Assistant panel opened\");\n  124 |   }\n  125 |\n    at AIAssistantPanelPage._waitForPanelOpen (/home/runner/work/playw"
+      "error": ""
     },
     {
       "title": "AI panel — asksam tab: chat input, send message, disclaimer",
-      "status": "failed",
-      "durationMs": 37844,
+      "status": "passed",
+      "durationMs": 38043,
       "file": "CCOP/ai-assistant-panel.spec.js",
       "module": "CCOP",
       "moduleLabel": "CCOP",
       "attachments": [
         {
           "name": "screenshot",
-          "path": "test-failed-1.png",
-          "contentType": "image/png",
-          "webPath": "./artifacts/ai_panel___asksam_tab__chat_input__send_message__d-screenshot.png"
+          "path": "test-finished-1.png",
+          "contentType": "image/png"
         },
         {
           "name": "video",
           "path": "video.webm",
-          "contentType": "video/webm",
-          "webPath": "./artifacts/ai_panel___asksam_tab__chat_input__send_message__d-video.webm"
-        },
-        {
-          "name": "error-context",
-          "path": "error-context.md",
-          "contentType": "text/markdown",
-          "webPath": "./artifacts/ai_panel___asksam_tab__chat_input__send_message__d-error-context.md"
-        },
-        {
-          "name": "trace",
-          "path": "trace.zip",
-          "contentType": "application/zip",
-          "webPath": "./artifacts/ai_panel___asksam_tab__chat_input__send_message__d-trace.zip"
+          "contentType": "video/webm"
         }
       ],
-      "error": "TimeoutError: locator.waitFor: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('asksam', { exact: true }).first() to be visible\u001b[22m\n\n\n   at ../pages/ai-assistant-panel.page.js:122\n\n  120 |       .getByText(\"asksam\", { exact: true })\n  121 |       .first()\n> 122 |       .waitFor({ state: \"visible\", timeout: 20000 });\n      |        ^\n  123 |     console.log(\"✅ AI Assistant panel opened\");\n  124 |   }\n  125 |\n    at AIAssistantPanelPage._waitForPanelOpen (/home/runner/work/playw"
+      "error": ""
     },
     {
       "title": "CCOP | Help Center | Raise, Reply & Resolve Ticket",
       "status": "passed",
-      "durationMs": 9962,
+      "durationMs": 10093,
       "file": "CCOP/ccop-helpcenter-ticket.spec.js",
       "module": "CCOP",
       "moduleLabel": "CCOP",
@@ -347,7 +305,7 @@
     {
       "title": "Create clinical note with document upload & transcription",
       "status": "passed",
-      "durationMs": 49496,
+      "durationMs": 47998,
       "file": "CCOP/clinical-note.spec.js",
       "module": "CCOP",
       "moduleLabel": "CCOP",
@@ -368,7 +326,7 @@
     {
       "title": "Create patient + upload + submit",
       "status": "passed",
-      "durationMs": 59766,
+      "durationMs": 56884,
       "file": "CCOP/create-patient-clinical-note.spec.js",
       "module": "CCOP",
       "moduleLabel": "CCOP",
@@ -389,7 +347,7 @@
     {
       "title": "Open letter template from Actions dropdown, select type and verify preview",
       "status": "passed",
-      "durationMs": 14541,
+      "durationMs": 15018,
       "file": "CCOP/letter-template.spec.js",
       "module": "CCOP",
       "moduleLabel": "CCOP",
@@ -410,7 +368,7 @@
     {
       "title": "Create a new letter template from Actions dropdown",
       "status": "passed",
-      "durationMs": 27746,
+      "durationMs": 27049,
       "file": "CCOP/letter-template.spec.js",
       "module": "CCOP",
       "moduleLabel": "CCOP",
