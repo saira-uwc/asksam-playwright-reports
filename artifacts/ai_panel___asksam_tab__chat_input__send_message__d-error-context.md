@@ -29,442 +29,168 @@
         - paragraph [ref=e39]: Settings
     - generic [ref=e40]:
       - generic [ref=e41]:
-        - generic [ref=e43]:
-          - navigation "breadcrumb" [ref=e44]:
-            - list [ref=e45]:
-              - listitem [ref=e46]:
-                - button "Clinical Co-Pilot" [ref=e47]
-              - listitem [ref=e48]: /
-              - listitem [ref=e49]:
-                - paragraph [ref=e50]: Patrik Test Test
-          - button "Actions" [ref=e52] [cursor=pointer]:
-            - text: Actions
-            - img [ref=e53]
-        - generic [ref=e55]:
-          - generic [ref=e56]:
-            - generic [ref=e59]:
-              - generic [ref=e60]:
-                - heading "Patrik Test Test" [level=4] [ref=e61]
-                - paragraph [ref=e62]: Male
-              - generic [ref=e63]:
-                - generic [ref=e64]:
-                  - img "Calendar" [ref=e65]
-                  - paragraph [ref=e66]: 24th March 2026
-                - generic [ref=e67]:
-                  - img "Email" [ref=e68]
-                  - paragraph [ref=e69]: patrik_patient_ausclerk_test@tmail.com
-            - generic [ref=e71]:
-              - heading "Expert Details" [level=6] [ref=e72]
-              - paragraph [ref=e73]: Anthony Smith
-              - generic [ref=e74]:
-                - generic [ref=e75]:
-                  - img [ref=e76]
-                  - paragraph [ref=e78]: e.cliniciantestuser@asksam.com.au
-                - generic [ref=e79]:
-                  - img [ref=e80]
-                  - paragraph [ref=e82]: "+61413801384"
-          - generic [ref=e83]:
-            - paragraph [ref=e85]: Summary
-            - generic "rdw-wrapper" [ref=e88]:
-              - generic "rdw-toolbar" [ref=e89]:
-                - generic "rdw-inline-control" [ref=e90]:
-                  - generic "Bold" [ref=e91] [cursor=pointer]
-                  - generic "Italic" [ref=e92] [cursor=pointer]
-                  - generic "Underline" [ref=e93] [cursor=pointer]
-                  - generic "Strikethrough" [ref=e94] [cursor=pointer]
-                  - generic "Monospace" [ref=e95] [cursor=pointer]
-                  - generic "Superscript" [ref=e96] [cursor=pointer]
-                  - generic "Subscript" [ref=e97] [cursor=pointer]
-                - generic "rdw-list-control" [ref=e98]:
-                  - generic "Unordered" [ref=e99] [cursor=pointer]
-                  - generic "Ordered" [ref=e100] [cursor=pointer]
-                  - generic "Indent" [ref=e101]
-                  - generic "Outdent" [ref=e102]
-              - generic "rdw-editor" [ref=e106]:
-                - list [ref=e108]:
-                  - listitem [ref=e109]:
-                    - generic [ref=e111]: The patient has a history of auditory hallucinations (F23.2), delusions (paranoia) (F22.0), social withdrawal (F60.0), and reduced speech and motivation (F20.9) with mild cortical atrophy (G31.3) and ventricular enlargement (I60.0).
-                  - listitem [ref=e112]:
-                    - generic [ref=e114]: "Chronic Conditions: No Information Available."
-                  - listitem [ref=e115]:
-                    - generic [ref=e117]: "Current Medications: Risperidone, Lorazepam, Olanzapine, Aripiprazole, Clozapine"
-                  - listitem [ref=e118]:
-                    - generic [ref=e120]: "Hospitalizations: No Information Available."
-                  - listitem [ref=e121]:
-                    - generic [ref=e123]: "Surgeries: No Information Available."
-                  - listitem [ref=e124]:
-                    - generic [ref=e126]: "Recent Tests: Cbc (2026), Lft (2026), Rft (2026), Thyroid Profile (2026), Vitamin B12 (2026), Fasting Blood Glucose (2026), Hba1C (2026), Lipid Profile (2026), Liver Function Test, Complete Blood Count, Renal Function Test"
-                  - listitem [ref=e127]:
-                    - generic [ref=e129]: "Psychiatric History: No information available."
-          - img [ref=e134] [cursor=pointer]
-          - generic [ref=e136]:
-            - paragraph [ref=e137]: Unsaved Changes
-            - button "Save" [ref=e138] [cursor=pointer]: Save
-          - generic [ref=e139]:
-            - generic [ref=e141]:
-              - generic:
-                - img
-              - tablist [ref=e144]:
-                - tab "Clinical Advice" [selected] [ref=e145] [cursor=pointer]: Clinical Advice
-                - tab "Clinical Examination" [ref=e146] [cursor=pointer]: Clinical Examination
-                - tab "Follow-Up Note" [ref=e147] [cursor=pointer]: Follow-Up Note
-                - tab "Case History" [ref=e148] [cursor=pointer]: Case History
-              - generic:
-                - img
-            - tabpanel [ref=e150]:
-              - generic [ref=e152]:
-                - generic [ref=e154]:
-                  - generic [ref=e157]:
-                    - generic [ref=e158]:
-                      - heading "Chief Complaint (CC)" [level=6] [ref=e159]
-                      - img [ref=e160]
-                    - generic "rdw-wrapper" [ref=e164]:
-                      - generic "rdw-toolbar" [ref=e165]:
-                        - generic "rdw-inline-control" [ref=e166]:
-                          - generic "Bold" [ref=e167] [cursor=pointer]
-                          - generic "Italic" [ref=e168] [cursor=pointer]
-                          - generic "Underline" [ref=e169] [cursor=pointer]
-                          - generic "Strikethrough" [ref=e170] [cursor=pointer]
-                          - generic "Monospace" [ref=e171] [cursor=pointer]
-                          - generic "Superscript" [ref=e172] [cursor=pointer]
-                          - generic "Subscript" [ref=e173] [cursor=pointer]
-                        - generic "rdw-list-control" [ref=e174]:
-                          - generic "Unordered" [ref=e175] [cursor=pointer]
-                          - generic "Ordered" [ref=e176] [cursor=pointer]
-                          - generic "Indent" [ref=e177]
-                          - generic "Outdent" [ref=e178]
-                      - textbox "rdw-editor" [ref=e182]:
-                        - list [ref=e184]:
-                          - listitem [ref=e185]:
-                            - generic [ref=e187]: "Auditory hallucinations – 8 months: Our patient has been experiencing distressing auditory hallucinations for the past 8 months, which can be quite challenging to manage."
-                          - listitem [ref=e188]:
-                            - generic [ref=e190]: "Delusions (paranoia) – 6 months: He's also been dealing with delusions of paranoia for the past 6 months, which can be a difficult symptom to manage."
-                          - listitem [ref=e191]:
-                            - generic [ref=e193]: "Social withdrawal – 10 months: Unfortunately, our patient has been experiencing social withdrawal for the past 10 months, which can lead to feelings of isolation and disconnection."
-                          - listitem [ref=e194]:
-                            - generic [ref=e196]: "Reduced speech and motivation – 6 months: Additionally, he's been struggling with reduced speech and motivation for the past 6 months, which can impact daily functioning and overall well-being."
-                  - generic [ref=e197]:
-                    - generic [ref=e200]:
-                      - generic [ref=e201]:
-                        - heading "History of Present Illness (HPI)" [level=6] [ref=e202]
-                        - img [ref=e203]
-                      - generic "rdw-wrapper" [ref=e207]:
-                        - generic "rdw-toolbar" [ref=e208]:
-                          - generic "rdw-inline-control" [ref=e209]:
-                            - generic "Bold" [ref=e210] [cursor=pointer]
-                            - generic "Italic" [ref=e211] [cursor=pointer]
-                            - generic "Underline" [ref=e212] [cursor=pointer]
-                            - generic "Strikethrough" [ref=e213] [cursor=pointer]
-                            - generic "Monospace" [ref=e214] [cursor=pointer]
-                            - generic "Superscript" [ref=e215] [cursor=pointer]
-                            - generic "Subscript" [ref=e216] [cursor=pointer]
-                          - generic "rdw-list-control" [ref=e217]:
-                            - generic "Unordered" [ref=e218] [cursor=pointer]
-                            - generic "Ordered" [ref=e219] [cursor=pointer]
-                            - generic "Indent" [ref=e220]
-                            - generic "Outdent" [ref=e221]
-                        - textbox "rdw-editor" [ref=e225]:
-                          - list [ref=e227]:
-                            - listitem [ref=e228]:
-                              - generic [ref=e230]: "Unknown: Gradual onset of social isolation and academic decline."
-                            - listitem [ref=e231]:
-                              - generic [ref=e233]: "Unknown: Hearing voices commenting on behavior (auditory hallucinations lasting 8 months)."
-                            - listitem [ref=e234]:
-                              - generic [ref=e236]: "Unknown: Belief of being monitored/spied upon (delusions lasting 6 months)."
-                            - listitem [ref=e237]:
-                              - generic [ref=e239]: "Unknown: Disorganized thinking and speech."
-                            - listitem [ref=e240]:
-                              - generic [ref=e242]: "Unknown: Poor self-care and hygiene."
-                            - listitem [ref=e243]:
-                              - generic [ref=e245]: "Unknown: Reduced speech and motivation lasting 6 months."
-                            - listitem [ref=e246]:
-                              - generic [ref=e248]: "Unknown: Social withdrawal lasting 10 months."
-                    - generic [ref=e251]:
-                      - generic [ref=e252]:
-                        - heading "Session Summary" [level=6] [ref=e253]
-                        - img [ref=e254]
-                      - generic "rdw-wrapper" [ref=e258]:
-                        - generic "rdw-toolbar" [ref=e259]:
-                          - generic "rdw-inline-control" [ref=e260]:
-                            - generic "Bold" [ref=e261] [cursor=pointer]
-                            - generic "Italic" [ref=e262] [cursor=pointer]
-                            - generic "Underline" [ref=e263] [cursor=pointer]
-                            - generic "Strikethrough" [ref=e264] [cursor=pointer]
-                            - generic "Monospace" [ref=e265] [cursor=pointer]
-                            - generic "Superscript" [ref=e266] [cursor=pointer]
-                            - generic "Subscript" [ref=e267] [cursor=pointer]
-                          - generic "rdw-list-control" [ref=e268]:
-                            - generic "Unordered" [ref=e269] [cursor=pointer]
-                            - generic "Ordered" [ref=e270] [cursor=pointer]
-                            - generic "Indent" [ref=e271]
-                            - generic "Outdent" [ref=e272]
-                        - textbox "rdw-editor" [ref=e276]:
-                          - generic [ref=e280]: No information available.
-                  - generic [ref=e281]:
-                    - generic [ref=e284]:
-                      - generic [ref=e285]:
-                        - heading "Advice" [level=6] [ref=e286]
-                        - img [ref=e287]
-                      - generic "rdw-wrapper" [ref=e291]:
-                        - generic "rdw-toolbar" [ref=e292]:
-                          - generic "rdw-inline-control" [ref=e293]:
-                            - generic "Bold" [ref=e294] [cursor=pointer]
-                            - generic "Italic" [ref=e295] [cursor=pointer]
-                            - generic "Underline" [ref=e296] [cursor=pointer]
-                            - generic "Strikethrough" [ref=e297] [cursor=pointer]
-                            - generic "Monospace" [ref=e298] [cursor=pointer]
-                            - generic "Superscript" [ref=e299] [cursor=pointer]
-                            - generic "Subscript" [ref=e300] [cursor=pointer]
-                          - generic "rdw-list-control" [ref=e301]:
-                            - generic "Unordered" [ref=e302] [cursor=pointer]
-                            - generic "Ordered" [ref=e303] [cursor=pointer]
-                            - generic "Indent" [ref=e304]
-                            - generic "Outdent" [ref=e305]
-                        - textbox "rdw-editor" [ref=e309]:
-                          - list [ref=e311]:
-                            - listitem [ref=e312]:
-                              - generic [ref=e314]: Cognitive assessment and rehabilitation priority
-                    - generic [ref=e317]:
-                      - generic [ref=e318]:
-                        - heading "Future Treatment Plan" [level=6] [ref=e319]
-                        - img [ref=e320]
-                      - generic "rdw-wrapper" [ref=e324]:
-                        - generic "rdw-toolbar" [ref=e325]:
-                          - generic "rdw-inline-control" [ref=e326]:
-                            - generic "Bold" [ref=e327] [cursor=pointer]
-                            - generic "Italic" [ref=e328] [cursor=pointer]
-                            - generic "Underline" [ref=e329] [cursor=pointer]
-                            - generic "Strikethrough" [ref=e330] [cursor=pointer]
-                            - generic "Monospace" [ref=e331] [cursor=pointer]
-                            - generic "Superscript" [ref=e332] [cursor=pointer]
-                            - generic "Subscript" [ref=e333] [cursor=pointer]
-                          - generic "rdw-list-control" [ref=e334]:
-                            - generic "Unordered" [ref=e335] [cursor=pointer]
-                            - generic "Ordered" [ref=e336] [cursor=pointer]
-                            - generic "Indent" [ref=e337]
-                            - generic "Outdent" [ref=e338]
-                        - textbox "rdw-editor" [ref=e342]:
-                          - list [ref=e344]:
-                            - listitem [ref=e345]:
-                              - generic [ref=e347]: "24-03-2026 - The patient's treatment plan includes:"
-                            - listitem [ref=e348]:
-                              - generic [ref=e350]: "Pharmacological:"
-                            - listitem [ref=e351]:
-                              - generic [ref=e353]: "Risperidone: Start at 1 mg/day, target 4–6 mg/day."
-                            - listitem [ref=e354]:
-                              - generic [ref=e356]: "Alternatives: Olanzapine (5–20 mg/day), Aripiprazole (10–15 mg/day)."
-                            - listitem [ref=e357]:
-                              - generic [ref=e359]: "For agitation: Lorazepam (1–2 mg PRN)."
-                            - listitem [ref=e360]:
-                              - generic [ref=e362]: "Treatment-resistant: Clozapine (12.5 mg → 300–450 mg/day, with CBC monitoring required)."
-                            - listitem [ref=e363]:
-                              - generic [ref=e365]: "Monitoring Plan:"
-                            - listitem [ref=e366]:
-                              - generic [ref=e368]: "Weight & Metabolic Monitoring: Weight (baseline 78 kg) to be monitored monthly, BMI tracking, blood sugar every 3–6 months, lipid profile every 6 months."
-                            - listitem [ref=e369]:
-                              - generic [ref=e371]: "Psychosocial Management:"
-                            - listitem [ref=e372]:
-                              - generic [ref=e374]: CBT
-                            - listitem [ref=e375]:
-                              - generic [ref=e377]: Family therapy
-                            - listitem [ref=e378]:
-                              - generic [ref=e380]: Social skills training
-                            - listitem [ref=e381]:
-                              - generic [ref=e383]: Rehabilitation
-                            - listitem [ref=e384]:
-                              - generic [ref=e386]: "Follow-Up Plan:"
-                            - listitem [ref=e387]:
-                              - generic [ref=e389]: Weekly initially, then monthly
-                            - listitem [ref=e390]:
-                              - generic [ref=e392]: Monitor adherence
-                            - listitem [ref=e393]:
-                              - generic [ref=e395]: PANSS scoring for symptom tracking
-                  - generic [ref=e396]:
-                    - generic [ref=e397]:
-                      - heading "Medications to be Prescribed" [level=6] [ref=e398]
-                      - img [ref=e399]
-                    - table "medication table" [ref=e404]:
-                      - rowgroup [ref=e405]:
-                        - row "Sl.No Medication Details Actions" [ref=e406]:
-                          - columnheader "Sl.No" [ref=e407]
-                          - columnheader "Medication Details" [ref=e408]
-                          - columnheader "Actions" [ref=e409]
-                      - rowgroup [ref=e410]:
-                        - row "1 Olanzapine , to be Taken . 5–20 mg/day" [ref=e411]:
-                          - cell "1" [ref=e412]
-                          - cell "Olanzapine , to be Taken . 5–20 mg/day" [ref=e413]
-                          - cell [ref=e414]
-                        - row "2 Aripiprazole , to be Taken . 10–15 mg/day" [ref=e415]:
-                          - cell "2" [ref=e416]
-                          - cell "Aripiprazole , to be Taken . 10–15 mg/day" [ref=e417]
-                          - cell [ref=e418]
-                        - row "3 Lorazepam , to be Taken PRN . 1-2 mg" [ref=e419]:
-                          - cell "3" [ref=e420]
-                          - cell "Lorazepam , to be Taken PRN . 1-2 mg" [ref=e421]
-                          - cell [ref=e422]
-                        - row "4 Clozapine 12.5 mg → 300–450 mg/day , to be Taken . CBC monitoring required" [ref=e423]:
-                          - cell "4" [ref=e424]
-                          - cell "Clozapine 12.5 mg → 300–450 mg/day , to be Taken . CBC monitoring required" [ref=e425]
-                          - cell [ref=e426]
-                  - generic [ref=e427]:
-                    - generic [ref=e428]:
-                      - generic [ref=e429]:
-                        - heading "Lab Test" [level=6] [ref=e430]
-                        - img [ref=e431]
-                      - heading "Time to result" [level=6] [ref=e433]
-                    - generic [ref=e434]:
-                      - generic [ref=e435]:
-                        - generic [ref=e438]:
-                          - generic [ref=e439]: Lab Test
-                          - generic [ref=e440]:
-                            - combobox "Lab Test Lab Test" [ref=e441]: Complete Blood Count
-                            - group:
-                              - generic: Lab Test
-                        - generic [ref=e443]:
-                          - generic [ref=e444]:
-                            - generic [ref=e445]: Time to result
-                            - generic [ref=e446]:
-                              - textbox "Time to result" [ref=e447]: 2–6
-                              - group:
-                                - generic: Time to result
-                          - generic [ref=e449]:
-                            - combobox [ref=e450] [cursor=pointer]: Days
-                            - textbox: days
-                            - img
-                            - group
-                          - button [active] [ref=e451] [cursor=pointer]:
-                            - img [ref=e452]
-                      - generic [ref=e454]:
-                        - generic [ref=e457]:
-                          - generic [ref=e458]: Lab Test
-                          - generic [ref=e459]:
-                            - combobox [ref=e460]: Renal Function Test
-                            - group:
-                              - generic: Lab Test
-                        - generic [ref=e462]:
-                          - generic [ref=e463]:
-                            - generic [ref=e464]: Time to result
-                            - generic [ref=e465]:
-                              - textbox "Time to result" [ref=e466]: 6–12
-                              - group:
-                                - generic: Time to result
-                          - generic [ref=e468]:
-                            - combobox [ref=e469] [cursor=pointer]: Days
-                            - textbox: days
-                            - img
-                            - group
-                          - button [ref=e470] [cursor=pointer]:
-                            - img [ref=e471]
-                      - button "Add Lab Test" [ref=e474] [cursor=pointer]:
-                        - img [ref=e476]
-                        - text: Add Lab Test
-                - generic [ref=e478]:
-                  - generic [ref=e479]:
-                    - generic [ref=e481]:
-                      - generic [ref=e482]:
-                        - heading "Recommend Expert" [level=6] [ref=e483]
-                        - img [ref=e484]
-                      - button "History" [ref=e487] [cursor=pointer]:
-                        - img [ref=e489]
-                        - text: History
-                    - generic [ref=e494]:
-                      - paragraph [ref=e498]: Psychologist
-                      - paragraph [ref=e499]: Consult in
-                      - generic [ref=e500]:
-                        - generic [ref=e502]:
-                          - textbox "0" [disabled] [ref=e503]: "2"
-                          - group
-                        - generic [ref=e506]:
-                          - combobox "Week(s)" [disabled] [ref=e507]
-                          - textbox [disabled]:
-                            - /placeholder: Frequency...
-                            - text: weeks
-                          - img
-                          - group
-                      - generic "rdw-wrapper" [ref=e509]:
-                        - generic [ref=e511]:
-                          - generic [ref=e513]: Add note to clinician...
-                          - generic "rdw-editor" [ref=e515]
-                  - generic [ref=e519]:
-                    - generic [ref=e521]:
-                      - generic [ref=e522]:
-                        - heading "Recommend Program" [level=6] [ref=e523]
-                        - img [ref=e524]
-                      - button "History" [ref=e527] [cursor=pointer]:
-                        - img [ref=e529]
-                        - text: History
-                    - generic [ref=e534]:
-                      - generic [ref=e537]:
-                        - paragraph [ref=e538]:
-                          - text: Get Started With Mindfulness
-                          - img [ref=e539]
-                          - text: "4.7"
-                        - paragraph [ref=e541]: Mindfulness
-                        - paragraph [ref=e542]: 2 Hours
-                      - paragraph [ref=e543]: Complete in
-                      - generic [ref=e544]:
-                        - generic [ref=e546]:
-                          - textbox "0" [disabled] [ref=e547]: "2"
-                          - group
-                        - generic [ref=e550]:
-                          - combobox "Week(s)" [disabled] [ref=e551]
-                          - textbox [disabled]: weeks
-                          - img
-                          - group
-                      - generic "rdw-wrapper" [ref=e553]:
-                        - generic [ref=e555]:
-                          - generic [ref=e557]: Add note to patient...
-                          - generic "rdw-editor" [ref=e559]
-                  - generic [ref=e563]:
-                    - generic [ref=e564]:
-                      - generic [ref=e565]:
-                        - heading "Recommend Assessment" [level=6] [ref=e566]
-                        - img [ref=e567]
-                      - button "History" [ref=e570] [cursor=pointer]:
-                        - img [ref=e572]
-                        - text: History
-                    - generic [ref=e577]:
-                      - generic [ref=e580]:
-                        - paragraph [ref=e581]: PHQ-15 Somatic Symptom Severity Scale
-                        - paragraph [ref=e582]:
-                          - img [ref=e583]
-                          - text: 15 question(s)
-                        - paragraph [ref=e585]: By - Kroenke, K. et al.
-                      - paragraph [ref=e586]: Reminder
-                      - generic [ref=e587]:
-                        - generic [ref=e588]:
-                          - paragraph [ref=e589]: Start Date
-                          - textbox [disabled] [ref=e590]: 2026-03-24
-                        - generic [ref=e591]:
-                          - paragraph [ref=e592]: End Date
-                          - textbox [disabled] [ref=e593]: 2026-03-31
-                      - generic [ref=e594]:
-                        - generic [ref=e595]:
-                          - paragraph [ref=e596]: Time
-                          - generic [ref=e598]:
-                            - textbox "hh:mm aa" [disabled] [ref=e599]: 10:16 AM
-                            - generic [ref=e600]:
-                              - button "Choose time, selected time is 10:16 AM" [disabled]:
-                                - img
-                            - group
-                        - generic [ref=e601]:
-                          - paragraph [ref=e602]: Frequency
-                          - generic [ref=e604]:
-                            - combobox "Week(s)" [disabled] [ref=e605]: Once Weekly
-                            - textbox [disabled]: Once_Weekly
-                            - img
-                            - group
-                      - generic "rdw-wrapper" [ref=e607]:
-                        - generic [ref=e609]:
-                          - generic [ref=e611]: Add note to patient...
-                          - generic "rdw-editor" [ref=e613]
-                  - generic [ref=e618]:
-                    - generic [ref=e619]:
-                      - heading "Recommend Content" [level=6] [ref=e620]
-                      - img [ref=e621]
-                    - button "History" [ref=e624] [cursor=pointer]:
-                      - img [ref=e626]
-                      - text: History
-      - contentinfo [ref=e629]:
-        - paragraph [ref=e631]: asksam does not provide medical advice, diagnosis, or treatment recommendations. Output must be reviewed by a qualified clinician. asksam is not designed to replace clinical reasoning or provide medical decision guidance.
+        - button "Clinical Assistant" [ref=e44]
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e48]:
+              - button "In Progress" [ref=e49] [cursor=pointer]: In Progress
+              - button "Completed" [active] [ref=e50] [cursor=pointer]: Completed
+              - button "All" [ref=e51] [cursor=pointer]: All
+            - button "Create Clinical Note" [ref=e54] [cursor=pointer]:
+              - img [ref=e56]
+              - generic [ref=e58]: Create Clinical Note
+          - generic [ref=e59]:
+            - generic [ref=e61]:
+              - generic [ref=e64]:
+                - generic [ref=e65]:
+                  - generic [ref=e66]:
+                    - img [ref=e68]
+                    - generic [ref=e69]:
+                      - heading "Adam" [level=6] [ref=e70]
+                      - paragraph [ref=e71]: New
+                  - button "Delete" [ref=e72] [cursor=pointer]:
+                    - img [ref=e73]
+                - paragraph [ref=e77]:
+                  - text: "Consultation Date:"
+                  - generic [ref=e78]: 31 Mar, 26
+                - button "Edit Draft" [ref=e80] [cursor=pointer]:
+                  - img [ref=e82]
+                  - text: Edit Draft
+              - generic [ref=e86]:
+                - generic [ref=e87]:
+                  - generic [ref=e88]:
+                    - img [ref=e90]
+                    - generic [ref=e91]:
+                      - heading "Yamini Singh 4" [level=6] [ref=e92]
+                      - paragraph [ref=e93]: Follow-up
+                  - button "Delete" [ref=e94] [cursor=pointer]:
+                    - img [ref=e95]
+                - paragraph [ref=e99]:
+                  - text: "Consultation Date:"
+                  - generic [ref=e100]: 31 Mar, 26
+                - button "Edit Draft" [ref=e102] [cursor=pointer]:
+                  - img [ref=e104]
+                  - text: Edit Draft
+              - generic [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]:
+                    - img [ref=e112]
+                    - generic [ref=e114]:
+                      - heading "Yamini Pal Singh" [level=6] [ref=e115]
+                      - paragraph [ref=e116]: Follow-up
+                  - button "Delete" [ref=e117] [cursor=pointer]:
+                    - img [ref=e118]
+                - generic [ref=e120]:
+                  - paragraph [ref=e122]:
+                    - text: "Consultation Date:"
+                    - generic [ref=e123]: 31 Mar, 26
+                  - paragraph [ref=e125]: "Mobile No: +61 345698736"
+                - button "Edit Draft" [ref=e127] [cursor=pointer]:
+                  - img [ref=e129]
+                  - text: Edit Draft
+              - generic [ref=e133]:
+                - generic [ref=e134]:
+                  - generic [ref=e135]:
+                    - img [ref=e137]
+                    - generic [ref=e138]:
+                      - heading "Ali Moore" [level=6] [ref=e139]
+                      - paragraph [ref=e140]: New
+                  - button "Delete" [ref=e141] [cursor=pointer]:
+                    - img [ref=e142]
+                - generic [ref=e144]:
+                  - paragraph [ref=e146]:
+                    - text: "Consultation Date:"
+                    - generic [ref=e147]: 31 Mar, 26
+                  - paragraph [ref=e149]: "Mobile No: +10000000000"
+                - button "Edit Draft" [ref=e151] [cursor=pointer]:
+                  - img [ref=e153]
+                  - text: Edit Draft
+              - generic [ref=e157]:
+                - generic [ref=e158]:
+                  - generic [ref=e159]:
+                    - img [ref=e161]
+                    - generic [ref=e162]:
+                      - heading "Yamini Singh 185" [level=6] [ref=e163]
+                      - paragraph [ref=e164]: Follow-up
+                  - button "Delete" [ref=e165] [cursor=pointer]:
+                    - img [ref=e166]
+                - paragraph [ref=e170]:
+                  - text: "Consultation Date:"
+                  - generic [ref=e171]: 26 Mar, 26
+                - button "Edit Draft" [ref=e173] [cursor=pointer]:
+                  - img [ref=e175]
+                  - text: Edit Draft
+              - generic [ref=e179]:
+                - generic [ref=e180]:
+                  - generic [ref=e181]:
+                    - img [ref=e183]
+                    - generic [ref=e185]:
+                      - heading "Yamini Pal Singh" [level=6] [ref=e186]
+                      - paragraph [ref=e187]: Follow-up
+                  - button "Delete" [ref=e188] [cursor=pointer]:
+                    - img [ref=e189]
+                - generic [ref=e191]:
+                  - paragraph [ref=e193]:
+                    - text: "Consultation Date:"
+                    - generic [ref=e194]: 26 Mar, 26
+                  - paragraph [ref=e196]: "Mobile No: +61 345698736"
+                - button "Edit Draft" [ref=e198] [cursor=pointer]:
+                  - img [ref=e200]
+                  - text: Edit Draft
+              - generic [ref=e204]:
+                - generic [ref=e205]:
+                  - generic [ref=e206]:
+                    - img [ref=e208]
+                    - generic [ref=e210]:
+                      - heading "Arjun Vinod Rathore" [level=6] [ref=e211]
+                      - paragraph [ref=e212]: New
+                  - button "Delete" [ref=e213] [cursor=pointer]:
+                    - img [ref=e214]
+                - generic [ref=e216]:
+                  - paragraph [ref=e218]:
+                    - text: "Consultation Date:"
+                    - generic [ref=e219]: 24 Mar, 26
+                  - paragraph [ref=e221]: "Mobile No: +91 8696544444"
+                - button "Edit Draft" [ref=e223] [cursor=pointer]:
+                  - img [ref=e225]
+                  - text: Edit Draft
+              - generic [ref=e229]:
+                - generic [ref=e230]:
+                  - generic [ref=e231]:
+                    - img [ref=e233]
+                    - generic [ref=e235]:
+                      - heading "Patrik Test Test" [level=6] [ref=e236]
+                      - paragraph [ref=e237]: Follow-up
+                  - button "Delete" [ref=e238] [cursor=pointer]:
+                    - img [ref=e239]
+                - paragraph [ref=e243]:
+                  - text: "Consultation Date:"
+                  - generic [ref=e244]: 24 Mar, 26
+                - button "Edit Draft" [ref=e246] [cursor=pointer]:
+                  - img [ref=e248]
+                  - text: Edit Draft
+            - navigation "pagination navigation" [ref=e252]:
+              - list [ref=e253]:
+                - listitem [ref=e254]:
+                  - button "Go to previous page" [disabled]:
+                    - img
+                - listitem [ref=e255]:
+                  - button "page 1" [ref=e256] [cursor=pointer]: "1"
+                - listitem [ref=e257]:
+                  - button "Go to page 2" [ref=e258] [cursor=pointer]: "2"
+                - listitem [ref=e259]:
+                  - button "Go to page 3" [ref=e260] [cursor=pointer]: "3"
+                - listitem [ref=e261]:
+                  - button "Go to page 4" [ref=e262] [cursor=pointer]: "4"
+                - listitem [ref=e263]:
+                  - button "Go to page 5" [ref=e264] [cursor=pointer]: "5"
+                - listitem [ref=e265]:
+                  - generic [ref=e266]: …
+                - listitem [ref=e267]:
+                  - button "Go to page 69" [ref=e268] [cursor=pointer]: "69"
+                - listitem [ref=e269]:
+                  - button "Go to next page" [ref=e270] [cursor=pointer]:
+                    - img [ref=e271]
+      - contentinfo [ref=e273]:
+        - paragraph [ref=e275]: asksam does not provide medical advice, diagnosis, or treatment recommendations. Output must be reviewed by a qualified clinician. asksam is not designed to replace clinical reasoning or provide medical decision guidance.
 ```
