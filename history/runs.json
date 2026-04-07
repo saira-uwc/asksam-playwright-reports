@@ -1,16 +1,16 @@
 [
   {
-    "id": "a260af86-28d4-4d7d-a8da-e2e48dfad13c",
-    "startedAt": "2026-04-06T10:08:51.218Z",
-    "durationMs": 698274.071,
+    "id": "532a80b2-9526-4d68-9446-9d35ff39932e",
+    "startedAt": "2026-04-07T10:09:11.849Z",
+    "durationMs": 781697.437,
     "summary": {
       "total": 18,
-      "passed": 15,
-      "failed": 2,
+      "passed": 17,
+      "failed": 0,
       "skipped": 1,
       "timedOut": 0
     },
-    "passRate": 88,
+    "passRate": 100,
     "modules": {
       "Expert-Dashboard": {
         "label": "Expert Dashboard",
@@ -23,8 +23,8 @@
       "CCOP": {
         "label": "CCOP",
         "total": 9,
-        "passed": 6,
-        "failed": 2,
+        "passed": 8,
+        "failed": 0,
         "skipped": 1,
         "timedOut": 0
       }
