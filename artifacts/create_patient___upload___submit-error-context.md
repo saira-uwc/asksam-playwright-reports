@@ -1,0 +1,229 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - button [ref=e8] [cursor=pointer]:
+        - img [ref=e11]
+    - generic [ref=e14]:
+      - generic [ref=e16]:
+        - link [ref=e17] [cursor=pointer]:
+          - /url: /clinical/home
+          - img [ref=e18]
+          - paragraph [ref=e20]: Home
+        - link [ref=e21] [cursor=pointer]:
+          - /url: /clinical/patients
+          - img [ref=e22]
+          - paragraph [ref=e24]: Patients
+        - link [ref=e25] [cursor=pointer]:
+          - /url: /clinical/expert-dashboard
+          - img [ref=e26]
+          - paragraph [ref=e28]: Appointment Dashboard
+        - link [ref=e29] [cursor=pointer]:
+          - /url: /clinical/help-center
+          - img [ref=e30]
+          - paragraph [ref=e32]: Help Center
+        - link [ref=e33] [cursor=pointer]:
+          - /url: /clinical/settings
+          - img [ref=e34]
+          - paragraph [ref=e36]: Settings
+      - generic [ref=e37]:
+        - generic [ref=e38]:
+          - button [ref=e41]: Clinical Assistant
+          - generic [ref=e42]:
+            - generic [ref=e43]:
+              - generic [ref=e45]:
+                - button [ref=e46] [cursor=pointer]: In Progress
+                - button [ref=e47] [cursor=pointer]: Completed
+                - button [ref=e48] [cursor=pointer]: All
+              - button [ref=e51] [cursor=pointer]:
+                - img [ref=e53]
+                - generic [ref=e55]: Create Clinical Note
+            - generic [ref=e56]:
+              - generic [ref=e58]:
+                - generic [ref=e61]:
+                  - generic [ref=e62]:
+                    - generic [ref=e63]:
+                      - img [ref=e65]
+                      - generic [ref=e67]:
+                        - heading [level=6] [ref=e68]: Test user-052346
+                        - paragraph [ref=e69]: New
+                    - button [ref=e70] [cursor=pointer]:
+                      - img [ref=e71]
+                  - paragraph [ref=e75]:
+                    - text: "Consultation Date:"
+                    - generic [ref=e76]: 09 Apr, 26
+                  - button [ref=e78] [cursor=pointer]:
+                    - img [ref=e80]
+                    - text: Edit Draft
+                - generic [ref=e84]:
+                  - generic [ref=e85]:
+                    - generic [ref=e86]:
+                      - img [ref=e88]
+                      - generic [ref=e90]:
+                        - heading [level=6] [ref=e91]: Test user-962850
+                        - paragraph [ref=e92]: New
+                    - button [ref=e93] [cursor=pointer]:
+                      - img [ref=e94]
+                  - paragraph [ref=e98]:
+                    - text: "Consultation Date:"
+                    - generic [ref=e99]: 09 Apr, 26
+                  - button [ref=e101] [cursor=pointer]:
+                    - img [ref=e103]
+                    - text: Edit Draft
+                - generic [ref=e107]:
+                  - generic [ref=e108]:
+                    - generic [ref=e109]:
+                      - img [ref=e111]
+                      - generic [ref=e113]:
+                        - heading [level=6] [ref=e114]: Test user-555245
+                        - paragraph [ref=e115]: New
+                    - button [ref=e116] [cursor=pointer]:
+                      - img [ref=e117]
+                  - paragraph [ref=e121]:
+                    - text: "Consultation Date:"
+                    - generic [ref=e122]: 09 Apr, 26
+                  - button [ref=e124] [cursor=pointer]:
+                    - img [ref=e126]
+                    - text: Edit Draft
+                - generic [ref=e130]:
+                  - generic [ref=e131]:
+                    - generic [ref=e132]:
+                      - img [ref=e134]
+                      - generic [ref=e136]:
+                        - heading [level=6] [ref=e137]: Test user-457433
+                        - paragraph [ref=e138]: New
+                    - button [ref=e139] [cursor=pointer]:
+                      - img [ref=e140]
+                  - paragraph [ref=e144]:
+                    - text: "Consultation Date:"
+                    - generic [ref=e145]: 09 Apr, 26
+                  - button [ref=e147] [cursor=pointer]:
+                    - img [ref=e149]
+                    - text: Edit Draft
+                - generic [ref=e153]:
+                  - generic [ref=e154]:
+                    - generic [ref=e155]:
+                      - img [ref=e157]
+                      - generic [ref=e158]:
+                        - heading [level=6] [ref=e159]: Jane Doh
+                        - paragraph [ref=e160]: Follow-up
+                    - button [ref=e161] [cursor=pointer]:
+                      - img [ref=e162]
+                  - generic [ref=e164]:
+                    - paragraph [ref=e166]:
+                      - text: "Consultation Date:"
+                      - generic [ref=e167]: 08 Apr, 26
+                    - paragraph [ref=e169]: "Mobile No: +61 435627586"
+                  - button [ref=e171] [cursor=pointer]:
+                    - img [ref=e173]
+                    - text: Edit Draft
+                - generic [ref=e177]:
+                  - generic [ref=e178]:
+                    - generic [ref=e179]:
+                      - img [ref=e181]
+                      - generic [ref=e183]:
+                        - heading [level=6] [ref=e184]: Test user-517062
+                        - paragraph [ref=e185]: New
+                    - button [ref=e186] [cursor=pointer]:
+                      - img [ref=e187]
+                  - paragraph [ref=e191]:
+                    - text: "Consultation Date:"
+                    - generic [ref=e192]: 07 Apr, 26
+                  - button [ref=e194] [cursor=pointer]:
+                    - img [ref=e196]
+                    - text: Edit Draft
+                - generic [ref=e200]:
+                  - generic [ref=e201]:
+                    - generic [ref=e202]:
+                      - img [ref=e204]
+                      - generic [ref=e206]:
+                        - heading [level=6] [ref=e207]: test-saira manual testing user
+                        - paragraph [ref=e208]: New
+                    - button [ref=e209] [cursor=pointer]:
+                      - img [ref=e210]
+                  - paragraph [ref=e214]:
+                    - text: "Consultation Date:"
+                    - generic [ref=e215]: 07 Apr, 26
+                  - button [ref=e217] [cursor=pointer]:
+                    - img [ref=e219]
+                    - text: Edit Draft
+                - generic [ref=e223]:
+                  - generic [ref=e224]:
+                    - generic [ref=e225]:
+                      - img [ref=e227]
+                      - generic [ref=e228]:
+                        - heading [level=6] [ref=e229]: Yamini Singh 191
+                        - paragraph [ref=e230]: Follow-up
+                    - button [ref=e231] [cursor=pointer]:
+                      - img [ref=e232]
+                  - paragraph [ref=e236]:
+                    - text: "Consultation Date:"
+                    - generic [ref=e237]: 07 Apr, 26
+                  - button [ref=e239] [cursor=pointer]:
+                    - img [ref=e241]
+                    - text: Edit Draft
+              - navigation [ref=e245]:
+                - list [ref=e246]:
+                  - listitem [ref=e247]:
+                    - button [disabled]:
+                      - img
+                  - listitem [ref=e248]:
+                    - button [ref=e249] [cursor=pointer]: "1"
+                  - listitem [ref=e250]:
+                    - button [ref=e251] [cursor=pointer]: "2"
+                  - listitem [ref=e252]:
+                    - button [ref=e253] [cursor=pointer]: "3"
+                  - listitem [ref=e254]:
+                    - button [ref=e255] [cursor=pointer]: "4"
+                  - listitem [ref=e256]:
+                    - button [ref=e257] [cursor=pointer]: "5"
+                  - listitem [ref=e258]:
+                    - generic [ref=e259]: …
+                  - listitem [ref=e260]:
+                    - button [ref=e261] [cursor=pointer]: "71"
+                  - listitem [ref=e262]:
+                    - button [ref=e263] [cursor=pointer]:
+                      - img [ref=e264]
+        - contentinfo [ref=e266]:
+          - paragraph [ref=e268]: asksam does not provide medical advice, diagnosis, or treatment recommendations. Output must be reviewed by a qualified clinician. asksam is not designed to replace clinical reasoning or provide medical decision guidance.
+  - dialog "Voice and Document Transcriptions Upload History Send Transcription" [ref=e271]:
+    - generic [ref=e272]:
+      - generic [ref=e273]: Voice and Document Transcriptions
+      - generic [ref=e274]:
+        - button "Upload" [ref=e275] [cursor=pointer]:
+          - img [ref=e276]
+          - text: Upload
+        - button "History" [ref=e278] [cursor=pointer]: History
+        - button "Send Transcription" [disabled]:
+          - img
+          - text: Send Transcription
+        - button [ref=e280] [cursor=pointer]:
+          - img [ref=e281]
+    - generic [ref=e285]:
+      - generic [ref=e287] [cursor=pointer]:
+        - button "Choose File" [ref=e288]
+        - generic:
+          - img
+          - paragraph: Select a file or drag and drop here
+      - generic [ref=e289]:
+        - paragraph [ref=e290]: "*Supported file formats: JPG, JPEG, PNG, and PDF"
+        - paragraph [ref=e291]: "*Maximum file size: 20MB"
+      - generic [ref=e293]:
+        - generic [ref=e294]:
+          - heading "Uploaded Files (1)" [level=6] [ref=e295]
+          - generic [ref=e296]:
+            - button "Transcribe All" [ref=e297] [cursor=pointer]: Transcribe All
+            - button "Remove All" [ref=e298] [cursor=pointer]: Remove All
+        - generic [ref=e302]:
+          - generic [ref=e303]:
+            - img [ref=e305]
+            - generic [ref=e311]:
+              - paragraph [ref=e312]: Yamini_Pal_Health_Summary.pdf
+              - paragraph [ref=e313]: 41 KB
+          - generic [ref=e314]:
+            - button "Transcribe" [ref=e315] [cursor=pointer]: Transcribe
+            - button "Delete file" [ref=e316] [cursor=pointer]:
+              - img [ref=e317]
+```
