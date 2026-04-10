@@ -1,15 +1,15 @@
 {
-  "id": "2e274e2b-e3f1-4f44-9f28-867a40578657",
-  "startedAt": "2026-04-10T11:05:50.472Z",
-  "durationMs": 890074.054,
+  "id": "c0648413-74bd-4104-a1f1-573f85e25427",
+  "startedAt": "2026-04-10T12:50:18.271Z",
+  "durationMs": 919165.329,
   "summary": {
-    "total": 18,
-    "passed": 17,
+    "total": 19,
+    "passed": 18,
     "failed": 1,
     "skipped": 0,
     "timedOut": 0
   },
-  "passRate": 94,
+  "passRate": 95,
   "modules": {
     "Expert-Dashboard": {
       "label": "Expert Dashboard",
@@ -21,8 +21,8 @@
     },
     "CCOP": {
       "label": "CCOP",
-      "total": 9,
-      "passed": 8,
+      "total": 10,
+      "passed": 9,
       "failed": 1,
       "skipped": 0,
       "timedOut": 0
@@ -32,7 +32,7 @@
     {
       "title": "authenticate",
       "status": "passed",
-      "durationMs": 8725,
+      "durationMs": 8944,
       "file": "Expert-Dashboard/auth.setup.js",
       "module": "Expert-Dashboard",
       "moduleLabel": "Expert Dashboard",
@@ -53,7 +53,7 @@
     {
       "title": "Expert Dashboard | Appointment booking (dynamic slots)",
       "status": "passed",
-      "durationMs": 28265,
+      "durationMs": 29496,
       "file": "Expert-Dashboard/appointment-booking.spec.js",
       "module": "Expert-Dashboard",
       "moduleLabel": "Expert Dashboard",
@@ -74,7 +74,7 @@
     {
       "title": "create appointment with existing patient and reschedule",
       "status": "passed",
-      "durationMs": 89420,
+      "durationMs": 92945,
       "file": "Expert-Dashboard/appointment-create-and-reschedule.spec.js",
       "module": "Expert-Dashboard",
       "moduleLabel": "Expert Dashboard",
@@ -95,7 +95,7 @@
     {
       "title": "create appointment and manage session lifecycle",
       "status": "passed",
-      "durationMs": 29751,
+      "durationMs": 24599,
       "file": "Expert-Dashboard/appointment-session-management.spec.js",
       "module": "Expert-Dashboard",
       "moduleLabel": "Expert Dashboard",
@@ -116,7 +116,7 @@
     {
       "title": "create appointment with existing patient and cancel non-cancelled one",
       "status": "passed",
-      "durationMs": 72697,
+      "durationMs": 72372,
       "file": "Expert-Dashboard/appointment-z-cancel.spec.js",
       "module": "Expert-Dashboard",
       "moduleLabel": "Expert Dashboard",
@@ -137,7 +137,7 @@
     {
       "title": "Expert Dashboard | Create patient & book appointment",
       "status": "passed",
-      "durationMs": 36821,
+      "durationMs": 42996,
       "file": "Expert-Dashboard/expert-appointment-create-with-new-patient.spec.js",
       "module": "Expert-Dashboard",
       "moduleLabel": "Expert Dashboard",
@@ -158,7 +158,7 @@
     {
       "title": "Expert Dashboard | Navigation flow validation",
       "status": "passed",
-      "durationMs": 11629,
+      "durationMs": 12025,
       "file": "Expert-Dashboard/expert-dashboard-navigation.spec.js",
       "module": "Expert-Dashboard",
       "moduleLabel": "Expert Dashboard",
@@ -179,7 +179,7 @@
     {
       "title": "Expert Dashboard | Help Center raise & reply ticket",
       "status": "passed",
-      "durationMs": 9597,
+      "durationMs": 10554,
       "file": "Expert-Dashboard/expert-helpcenter-ticket.spec.js",
       "module": "Expert-Dashboard",
       "moduleLabel": "Expert Dashboard",
@@ -200,7 +200,7 @@
     {
       "title": "create unique patient, search and view profile",
       "status": "passed",
-      "durationMs": 24162,
+      "durationMs": 27452,
       "file": "Expert-Dashboard/patient-create-and-view.spec.js",
       "module": "Expert-Dashboard",
       "moduleLabel": "Expert Dashboard",
@@ -221,7 +221,7 @@
     {
       "title": "AI panel — Graph tab: knowledge graph, zoom controls, node properties, legends",
       "status": "passed",
-      "durationMs": 40836,
+      "durationMs": 40885,
       "file": "CCOP/ai-assistant-panel.spec.js",
       "module": "CCOP",
       "moduleLabel": "CCOP",
@@ -242,7 +242,7 @@
     {
       "title": "AI panel — Assistant tab: associations, medication & comorbidity sub-tabs",
       "status": "passed",
-      "durationMs": 38236,
+      "durationMs": 39145,
       "file": "CCOP/ai-assistant-panel.spec.js",
       "module": "CCOP",
       "moduleLabel": "CCOP",
@@ -263,7 +263,7 @@
     {
       "title": "AI panel — asksam tab: chat input, send message, disclaimer",
       "status": "passed",
-      "durationMs": 74411,
+      "durationMs": 74855,
       "file": "CCOP/ai-assistant-panel.spec.js",
       "module": "CCOP",
       "moduleLabel": "CCOP",
@@ -284,7 +284,7 @@
     {
       "title": "CCOP | Help Center | Raise, Reply & Resolve Ticket",
       "status": "passed",
-      "durationMs": 10517,
+      "durationMs": 11667,
       "file": "CCOP/ccop-helpcenter-ticket.spec.js",
       "module": "CCOP",
       "moduleLabel": "CCOP",
@@ -305,7 +305,7 @@
     {
       "title": "Create clinical note with document upload & transcription",
       "status": "passed",
-      "durationMs": 49259,
+      "durationMs": 51104,
       "file": "CCOP/clinical-note.spec.js",
       "module": "CCOP",
       "moduleLabel": "CCOP",
@@ -326,7 +326,7 @@
     {
       "title": "Create patient + upload + submit",
       "status": "passed",
-      "durationMs": 78995,
+      "durationMs": 63390,
       "file": "CCOP/create-patient-clinical-note.spec.js",
       "module": "CCOP",
       "moduleLabel": "CCOP",
@@ -347,7 +347,7 @@
     {
       "title": "Open letter template from Actions dropdown, select type and verify preview",
       "status": "passed",
-      "durationMs": 26460,
+      "durationMs": 30913,
       "file": "CCOP/letter-template.spec.js",
       "module": "CCOP",
       "moduleLabel": "CCOP",
@@ -368,8 +368,29 @@
     {
       "title": "Create a new letter template from Actions dropdown",
       "status": "passed",
-      "durationMs": 35717,
+      "durationMs": 38288,
       "file": "CCOP/letter-template.spec.js",
+      "module": "CCOP",
+      "moduleLabel": "CCOP",
+      "attachments": [
+        {
+          "name": "screenshot",
+          "path": "test-finished-1.png",
+          "contentType": "image/png"
+        },
+        {
+          "name": "video",
+          "path": "video.webm",
+          "contentType": "video/webm"
+        }
+      ],
+      "error": ""
+    },
+    {
+      "title": "Create clinical note with voice transcription",
+      "status": "passed",
+      "durationMs": 20652,
+      "file": "CCOP/voice-transcription.spec.js",
       "module": "CCOP",
       "moduleLabel": "CCOP",
       "attachments": [
@@ -389,20 +410,20 @@
     {
       "title": "CCOP | Clinician signup full flow (recorded)",
       "status": "failed",
-      "durationMs": 107807,
+      "durationMs": 109258,
       "file": "CCOP/ccop-clinician-signup.spec.js",
       "module": "CCOP",
       "moduleLabel": "CCOP",
       "attachments": [
         {
           "name": "screenshot",
-          "path": "test-failed-2.png",
+          "path": "test-failed-1.png",
           "contentType": "image/png",
           "webPath": "./artifacts/ccop___clinician_signup_full_flow__recorded_-screenshot.png"
         },
         {
           "name": "screenshot",
-          "path": "test-failed-1.png",
+          "path": "test-failed-2.png",
           "contentType": "image/png",
           "webPath": "./artifacts/ccop___clinician_signup_full_flow__recorded_-screenshot.png"
         },
