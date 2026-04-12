@@ -4,7 +4,7 @@
 - generic [ref=e2]:
   - banner [ref=e4]:
     - button "Open user menu" [ref=e11] [cursor=pointer]:
-      - img "test autouser266463's logo" [ref=e14]
+      - img "test autouser655958's logo" [ref=e14]
   - generic [ref=e17]:
     - generic [ref=e19]:
       - link "Home" [ref=e20] [cursor=pointer]:
