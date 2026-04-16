@@ -228,19 +228,22 @@
           - img [ref=e319]
     - generic [ref=e321]:
       - textbox "Start Typing..." [ref=e325]
-      - generic [ref=e328]:
-        - generic [ref=e330]:
-          - generic "Select Language for Speech Recognition" [ref=e331]:
-            - generic [ref=e332]:
-              - combobox [ref=e333] [cursor=pointer]:
-                - generic [ref=e334]:
-                  - img [ref=e335]
-                  - generic [ref=e337]: English
-              - textbox: en
-              - img
-              - group
-          - button "For best results, please use voice dictation in the selected language." [ref=e338] [cursor=pointer]:
-            - img [ref=e339]
-        - button [ref=e348] [cursor=pointer]:
-          - img [ref=e349]
+      - generic [ref=e327]:
+        - generic [ref=e328]:
+          - generic [ref=e330]:
+            - generic "Select Language for Speech Recognition" [ref=e331]:
+              - generic [ref=e332]:
+                - combobox [ref=e333] [cursor=pointer]:
+                  - generic [ref=e334]:
+                    - img [ref=e335]
+                    - generic [ref=e337]: English
+                - textbox: en
+                - img
+                - group
+            - button "For best results, please use voice dictation in the selected language." [ref=e338] [cursor=pointer]:
+              - img [ref=e339]
+          - button [ref=e348] [cursor=pointer]:
+            - img [ref=e349]
+        - progressbar [ref=e354]:
+          - img [ref=e355]
 ```
