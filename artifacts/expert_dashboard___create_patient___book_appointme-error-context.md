@@ -327,7 +327,7 @@
                     - generic [ref=e462]:
                       - generic [ref=e463]: Follow up Consult
                       - generic [ref=e464]: Natural Medicine
-                    - heading [level=6] [ref=e465]: Testtt The Sairaa
+                    - heading [level=6] [ref=e465]: test user-978082
                     - heading [level=6] [ref=e466]: "Appointment With : Dr Anthony Smith"
                     - heading [level=6] [ref=e467]: "Created By : Anthony Smith"
                     - generic [ref=e468]:
@@ -372,7 +372,7 @@
     - heading "Book Appointment" [level=5] [ref=e515]
     - generic [ref=e516]:
       - generic [ref=e519]:
-        - combobox "Search User" [ref=e520]: test user-773976
+        - combobox "Search User" [ref=e520]: test user-921842
         - button "Open" [ref=e522] [cursor=pointer]:
           - img [ref=e523]
         - group
