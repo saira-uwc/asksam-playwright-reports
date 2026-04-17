@@ -372,7 +372,7 @@
     - heading "Book Appointment" [level=5] [ref=e515]
     - generic [ref=e516]:
       - generic [ref=e519]:
-        - combobox "Search User" [ref=e520]: test user-401148
+        - combobox "Search User" [ref=e520]: test user-679421
         - button "Open" [ref=e522] [cursor=pointer]:
           - img [ref=e523]
         - group
