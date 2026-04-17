@@ -95,13 +95,13 @@
                     - generic [ref=e134]:
                       - generic [ref=e135]: Follow up Consult
                       - generic [ref=e136]: Natural Medicine
-                    - heading [level=6] [ref=e137]: Testtt The Sairaa
+                    - heading [level=6] [ref=e137]: test user-992162
                     - heading [level=6] [ref=e138]: "Appointment With : Dr Anthony Smith"
                     - heading [level=6] [ref=e139]: "Created By : Anthony Smith"
                     - generic [ref=e140]:
                       - generic [ref=e141]:
                         - generic [ref=e143]: Appt
-                        - generic [ref=e144]: Cancelled
+                        - generic [ref=e144]: Upcoming
                       - generic [ref=e145]:
                         - generic [ref=e147]: Sess
                         - generic [ref=e148]: Not Marked
@@ -113,98 +113,98 @@
                   - generic [ref=e155]:
                     - img [ref=e156]
                     - paragraph [ref=e158]: 08:00 AM
-              - button [ref=e161] [cursor=pointer]: View Details
-            - generic [ref=e163]:
-              - generic [ref=e165]:
-                - button [ref=e167] [cursor=pointer]:
-                  - img [ref=e168]
-                - generic [ref=e170]:
-                  - img [ref=e172]
-                  - generic [ref=e174]:
-                    - generic [ref=e175]:
-                      - generic [ref=e176]: Follow up Consult
-                      - generic [ref=e177]: Natural Medicine
-                    - heading [level=6] [ref=e178]: Testtt The Sairaa
-                    - heading [level=6] [ref=e179]: "Appointment With : Dr Anthony Smith"
-                    - heading [level=6] [ref=e180]: "Created By : Anthony Smith"
-                    - generic [ref=e181]:
-                      - generic [ref=e182]:
-                        - generic [ref=e184]: Appt
-                        - generic [ref=e185]: Cancelled
-                      - generic [ref=e186]:
-                        - generic [ref=e188]: Sess
-                        - generic [ref=e189]: Not Marked
-                - separator [ref=e190]
-                - generic [ref=e191]:
-                  - generic [ref=e192]:
-                    - img [ref=e193]
-                    - paragraph [ref=e195]: 20 Apr 2026
-                  - generic [ref=e196]:
-                    - img [ref=e197]
-                    - paragraph [ref=e199]: 08:00 AM
-              - button [ref=e202] [cursor=pointer]: View Details
-            - generic [ref=e204]:
-              - generic [ref=e206]:
-                - button [ref=e208] [cursor=pointer]:
-                  - img [ref=e209]
-                - generic [ref=e211]:
-                  - img [ref=e213]
-                  - generic [ref=e215]:
-                    - generic [ref=e216]:
-                      - generic [ref=e217]: Follow up Consult
-                      - generic [ref=e218]: Natural Medicine
-                    - heading [level=6] [ref=e219]: Testtt The Sairaa
-                    - heading [level=6] [ref=e220]: "Appointment With : Dr Anthony Smith"
-                    - heading [level=6] [ref=e221]: "Created By : Anthony Smith"
-                    - generic [ref=e222]:
-                      - generic [ref=e223]:
-                        - generic [ref=e225]: Appt
-                        - generic [ref=e226]: Cancelled
-                      - generic [ref=e227]:
-                        - generic [ref=e229]: Sess
-                        - generic [ref=e230]: Not Marked
-                - separator [ref=e231]
-                - generic [ref=e232]:
-                  - generic [ref=e233]:
-                    - img [ref=e234]
-                    - paragraph [ref=e236]: 20 Apr 2026
-                  - generic [ref=e237]:
-                    - img [ref=e238]
-                    - paragraph [ref=e240]: 08:00 AM
-              - button [ref=e243] [cursor=pointer]: View Details
-            - generic [ref=e245]:
-              - generic [ref=e247]:
-                - button [ref=e249] [cursor=pointer]:
-                  - img [ref=e250]
-                - generic [ref=e252]:
-                  - img [ref=e254]
-                  - generic [ref=e256]:
-                    - generic [ref=e257]:
-                      - generic [ref=e258]: Follow up Consult
-                      - generic [ref=e259]: Natural Medicine
-                    - heading [level=6] [ref=e260]: test user-992162
-                    - heading [level=6] [ref=e261]: "Appointment With : Dr Anthony Smith"
-                    - heading [level=6] [ref=e262]: "Created By : Anthony Smith"
-                    - generic [ref=e263]:
-                      - generic [ref=e264]:
-                        - generic [ref=e266]: Appt
-                        - generic [ref=e267]: Upcoming
-                      - generic [ref=e268]:
-                        - generic [ref=e270]: Sess
-                        - generic [ref=e271]: Not Marked
-                - separator [ref=e272]
-                - generic [ref=e273]:
-                  - generic [ref=e274]:
-                    - img [ref=e275]
-                    - paragraph [ref=e277]: 20 Apr 2026
-                  - generic [ref=e278]:
-                    - img [ref=e279]
-                    - paragraph [ref=e281]: 08:00 AM
-              - generic [ref=e283]:
-                - link [ref=e284] [cursor=pointer]:
+              - generic [ref=e160]:
+                - link [ref=e161] [cursor=pointer]:
                   - /url: https://meet.google.com/ebq-rrqa-zja
                   - text: Join Now
-                - button [ref=e285] [cursor=pointer]: View Details
+                - button [ref=e162] [cursor=pointer]: View Details
+            - generic [ref=e164]:
+              - generic [ref=e166]:
+                - button [ref=e168] [cursor=pointer]:
+                  - img [ref=e169]
+                - generic [ref=e171]:
+                  - img [ref=e173]
+                  - generic [ref=e175]:
+                    - generic [ref=e176]:
+                      - generic [ref=e177]: Follow up Consult
+                      - generic [ref=e178]: Natural Medicine
+                    - heading [level=6] [ref=e179]: Testtt The Sairaa
+                    - heading [level=6] [ref=e180]: "Appointment With : Dr Anthony Smith"
+                    - heading [level=6] [ref=e181]: "Created By : Anthony Smith"
+                    - generic [ref=e182]:
+                      - generic [ref=e183]:
+                        - generic [ref=e185]: Appt
+                        - generic [ref=e186]: Cancelled
+                      - generic [ref=e187]:
+                        - generic [ref=e189]: Sess
+                        - generic [ref=e190]: Not Marked
+                - separator [ref=e191]
+                - generic [ref=e192]:
+                  - generic [ref=e193]:
+                    - img [ref=e194]
+                    - paragraph [ref=e196]: 20 Apr 2026
+                  - generic [ref=e197]:
+                    - img [ref=e198]
+                    - paragraph [ref=e200]: 08:00 AM
+              - button [ref=e203] [cursor=pointer]: View Details
+            - generic [ref=e205]:
+              - generic [ref=e207]:
+                - button [ref=e209] [cursor=pointer]:
+                  - img [ref=e210]
+                - generic [ref=e212]:
+                  - img [ref=e214]
+                  - generic [ref=e216]:
+                    - generic [ref=e217]:
+                      - generic [ref=e218]: Follow up Consult
+                      - generic [ref=e219]: Natural Medicine
+                    - heading [level=6] [ref=e220]: Testtt The Sairaa
+                    - heading [level=6] [ref=e221]: "Appointment With : Dr Anthony Smith"
+                    - heading [level=6] [ref=e222]: "Created By : Anthony Smith"
+                    - generic [ref=e223]:
+                      - generic [ref=e224]:
+                        - generic [ref=e226]: Appt
+                        - generic [ref=e227]: Cancelled
+                      - generic [ref=e228]:
+                        - generic [ref=e230]: Sess
+                        - generic [ref=e231]: Not Marked
+                - separator [ref=e232]
+                - generic [ref=e233]:
+                  - generic [ref=e234]:
+                    - img [ref=e235]
+                    - paragraph [ref=e237]: 20 Apr 2026
+                  - generic [ref=e238]:
+                    - img [ref=e239]
+                    - paragraph [ref=e241]: 08:00 AM
+              - button [ref=e244] [cursor=pointer]: View Details
+            - generic [ref=e246]:
+              - generic [ref=e248]:
+                - button [ref=e250] [cursor=pointer]:
+                  - img [ref=e251]
+                - generic [ref=e253]:
+                  - img [ref=e255]
+                  - generic [ref=e257]:
+                    - generic [ref=e258]:
+                      - generic [ref=e259]: Follow up Consult
+                      - generic [ref=e260]: Natural Medicine
+                    - heading [level=6] [ref=e261]: Testtt The Sairaa
+                    - heading [level=6] [ref=e262]: "Appointment With : Dr Anthony Smith"
+                    - heading [level=6] [ref=e263]: "Created By : Anthony Smith"
+                    - generic [ref=e264]:
+                      - generic [ref=e265]:
+                        - generic [ref=e267]: Appt
+                        - generic [ref=e268]: Cancelled
+                      - generic [ref=e269]:
+                        - generic [ref=e271]: Sess
+                        - generic [ref=e272]: Not Marked
+                - separator [ref=e273]
+                - generic [ref=e274]:
+                  - generic [ref=e275]:
+                    - img [ref=e276]
+                    - paragraph [ref=e278]: 20 Apr 2026
+                  - generic [ref=e279]:
+                    - img [ref=e280]
+                    - paragraph [ref=e282]: 08:00 AM
+              - button [ref=e285] [cursor=pointer]: View Details
             - generic [ref=e287]:
               - generic [ref=e289]:
                 - button [ref=e291] [cursor=pointer]:
@@ -273,7 +273,7 @@
                     - generic [ref=e381]:
                       - generic [ref=e382]: Follow up Consult
                       - generic [ref=e383]: Natural Medicine
-                    - heading [level=6] [ref=e384]: test user-940258
+                    - heading [level=6] [ref=e384]: Testtt The Sairaa
                     - heading [level=6] [ref=e385]: "Appointment With : Dr Anthony Smith"
                     - heading [level=6] [ref=e386]: "Created By : Anthony Smith"
                     - generic [ref=e387]:
@@ -331,7 +331,7 @@
                     - generic [ref=e463]:
                       - generic [ref=e464]: Follow up Consult
                       - generic [ref=e465]: Natural Medicine
-                    - heading [level=6] [ref=e466]: Testtt The Sairaa
+                    - heading [level=6] [ref=e466]: test user-940258
                     - heading [level=6] [ref=e467]: "Appointment With : Dr Anthony Smith"
                     - heading [level=6] [ref=e468]: "Created By : Anthony Smith"
                     - generic [ref=e469]:
