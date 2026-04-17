@@ -395,7 +395,7 @@
         - button "Initial Consult" [ref=e546] [cursor=pointer]: Initial Consult
     - generic [ref=e547]:
       - heading "Next Available Slot" [level=6] [ref=e548]
-      - paragraph [ref=e550]: NaN/NaN/NaN at Invalid Date
+      - paragraph [ref=e550]: 04/05/2026 at 08:00 AM
     - generic [ref=e551]:
       - heading "Slot Selection Type" [level=6] [ref=e552]
       - group [ref=e553]:

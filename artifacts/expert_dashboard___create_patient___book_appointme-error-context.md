@@ -298,7 +298,7 @@
                     - generic [ref=e421]:
                       - generic [ref=e422]: Follow up Consult
                       - generic [ref=e423]: Natural Medicine
-                    - heading [level=6] [ref=e424]: Testtt The Sairaa
+                    - heading [level=6] [ref=e424]: test user-940258
                     - heading [level=6] [ref=e425]: "Appointment With : Dr Anthony Smith"
                     - heading [level=6] [ref=e426]: "Created By : Anthony Smith"
                     - generic [ref=e427]:
@@ -372,7 +372,7 @@
     - heading "Book Appointment" [level=5] [ref=e515]
     - generic [ref=e516]:
       - generic [ref=e519]:
-        - combobox "Search User" [ref=e520]: test user-229838
+        - combobox "Search User" [ref=e520]: test user-376500
         - button "Open" [ref=e522] [cursor=pointer]:
           - img [ref=e523]
         - group
@@ -395,7 +395,7 @@
         - button "Initial Consult" [ref=e546] [cursor=pointer]: Initial Consult
     - generic [ref=e547]:
       - heading "Next Available Slot" [level=6] [ref=e548]
-      - paragraph [ref=e550]: NaN/NaN/NaN at Invalid Date
+      - paragraph [ref=e550]: 04/05/2026 at 08:00 AM
     - generic [ref=e551]:
       - heading "Slot Selection Type" [level=6] [ref=e552]
       - group [ref=e553]:
