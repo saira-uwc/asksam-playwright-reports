@@ -1,7 +1,7 @@
 {
-  "id": "7017d539-1a92-4710-9c5c-cbfd76efd74b",
-  "startedAt": "2026-04-17T09:58:03.583Z",
-  "durationMs": 1792027.454,
+  "id": "31ebfa89-dca9-473d-b71e-8489602227ed",
+  "startedAt": "2026-04-17T10:58:04.757Z",
+  "durationMs": 1992126.085,
   "summary": {
     "total": 19,
     "passed": 14,
@@ -32,7 +32,7 @@
     {
       "title": "authenticate",
       "status": "passed",
-      "durationMs": 9734,
+      "durationMs": 10550,
       "file": "Expert-Dashboard/auth.setup.js",
       "module": "Expert-Dashboard",
       "moduleLabel": "Expert Dashboard",
@@ -53,7 +53,7 @@
     {
       "title": "Expert Dashboard | Appointment booking (dynamic slots)",
       "status": "failed",
-      "durationMs": 108926,
+      "durationMs": 108953,
       "file": "Expert-Dashboard/appointment-booking.spec.js",
       "module": "Expert-Dashboard",
       "moduleLabel": "Expert Dashboard",
@@ -88,7 +88,7 @@
     {
       "title": "create appointment with existing patient and reschedule",
       "status": "failed",
-      "durationMs": 108650,
+      "durationMs": 108728,
       "file": "Expert-Dashboard/appointment-create-and-reschedule.spec.js",
       "module": "Expert-Dashboard",
       "moduleLabel": "Expert Dashboard",
@@ -123,7 +123,7 @@
     {
       "title": "create appointment and manage session lifecycle",
       "status": "failed",
-      "durationMs": 109777,
+      "durationMs": 109115,
       "file": "Expert-Dashboard/appointment-session-management.spec.js",
       "module": "Expert-Dashboard",
       "moduleLabel": "Expert Dashboard",
@@ -158,7 +158,7 @@
     {
       "title": "create appointment with existing patient and cancel non-cancelled one",
       "status": "failed",
-      "durationMs": 109292,
+      "durationMs": 108814,
       "file": "Expert-Dashboard/appointment-z-cancel.spec.js",
       "module": "Expert-Dashboard",
       "moduleLabel": "Expert Dashboard",
@@ -193,7 +193,7 @@
     {
       "title": "Expert Dashboard | Create patient & book appointment",
       "status": "failed",
-      "durationMs": 135608,
+      "durationMs": 133863,
       "file": "Expert-Dashboard/expert-appointment-create-with-new-patient.spec.js",
       "module": "Expert-Dashboard",
       "moduleLabel": "Expert Dashboard",
@@ -228,7 +228,7 @@
     {
       "title": "Expert Dashboard | Navigation flow validation",
       "status": "passed",
-      "durationMs": 14643,
+      "durationMs": 13135,
       "file": "Expert-Dashboard/expert-dashboard-navigation.spec.js",
       "module": "Expert-Dashboard",
       "moduleLabel": "Expert Dashboard",
@@ -249,7 +249,7 @@
     {
       "title": "Expert Dashboard | Help Center raise & reply ticket",
       "status": "passed",
-      "durationMs": 11137,
+      "durationMs": 9917,
       "file": "Expert-Dashboard/expert-helpcenter-ticket.spec.js",
       "module": "Expert-Dashboard",
       "moduleLabel": "Expert Dashboard",
@@ -270,7 +270,7 @@
     {
       "title": "create unique patient, search and view profile",
       "status": "passed",
-      "durationMs": 27038,
+      "durationMs": 24036,
       "file": "Expert-Dashboard/patient-create-and-view.spec.js",
       "module": "Expert-Dashboard",
       "moduleLabel": "Expert Dashboard",
@@ -291,7 +291,7 @@
     {
       "title": "AI panel — Graph tab: knowledge graph, zoom controls, node properties, legends",
       "status": "passed",
-      "durationMs": 45985,
+      "durationMs": 43609,
       "file": "CCOP/ai-assistant-panel.spec.js",
       "module": "CCOP",
       "moduleLabel": "CCOP",
@@ -312,7 +312,7 @@
     {
       "title": "AI panel — Assistant tab: associations, medication & comorbidity sub-tabs",
       "status": "passed",
-      "durationMs": 43210,
+      "durationMs": 44574,
       "file": "CCOP/ai-assistant-panel.spec.js",
       "module": "CCOP",
       "moduleLabel": "CCOP",
@@ -333,7 +333,7 @@
     {
       "title": "AI panel — asksam tab: chat input, send message, disclaimer",
       "status": "passed",
-      "durationMs": 78364,
+      "durationMs": 78997,
       "file": "CCOP/ai-assistant-panel.spec.js",
       "module": "CCOP",
       "moduleLabel": "CCOP",
@@ -354,7 +354,7 @@
     {
       "title": "CCOP | Help Center | Raise, Reply & Resolve Ticket",
       "status": "passed",
-      "durationMs": 11120,
+      "durationMs": 10953,
       "file": "CCOP/ccop-helpcenter-ticket.spec.js",
       "module": "CCOP",
       "moduleLabel": "CCOP",
@@ -375,7 +375,7 @@
     {
       "title": "Create clinical note with document upload & transcription",
       "status": "passed",
-      "durationMs": 64697,
+      "durationMs": 54635,
       "file": "CCOP/clinical-note.spec.js",
       "module": "CCOP",
       "moduleLabel": "CCOP",
@@ -396,7 +396,7 @@
     {
       "title": "Create patient + upload + submit",
       "status": "passed",
-      "durationMs": 123698,
+      "durationMs": 77912,
       "file": "CCOP/create-patient-clinical-note.spec.js",
       "module": "CCOP",
       "moduleLabel": "CCOP",
@@ -417,7 +417,7 @@
     {
       "title": "Open letter template from Actions dropdown, select type and verify preview",
       "status": "passed",
-      "durationMs": 29877,
+      "durationMs": 30635,
       "file": "CCOP/letter-template.spec.js",
       "module": "CCOP",
       "moduleLabel": "CCOP",
@@ -438,7 +438,7 @@
     {
       "title": "Create a new letter template from Actions dropdown",
       "status": "passed",
-      "durationMs": 40047,
+      "durationMs": 36233,
       "file": "CCOP/letter-template.spec.js",
       "module": "CCOP",
       "moduleLabel": "CCOP",
@@ -459,7 +459,7 @@
     {
       "title": "Create clinical note with voice transcription",
       "status": "passed",
-      "durationMs": 22662,
+      "durationMs": 30733,
       "file": "CCOP/voice-transcription.spec.js",
       "module": "CCOP",
       "moduleLabel": "CCOP",
@@ -480,19 +480,19 @@
     {
       "title": "CCOP | Clinician signup full flow (recorded)",
       "status": "passed",
-      "durationMs": 89053,
+      "durationMs": 76016,
       "file": "CCOP/ccop-clinician-signup.spec.js",
       "module": "CCOP",
       "moduleLabel": "CCOP",
       "attachments": [
         {
           "name": "screenshot",
-          "path": "test-finished-2.png",
+          "path": "test-finished-1.png",
           "contentType": "image/png"
         },
         {
           "name": "screenshot",
-          "path": "test-finished-1.png",
+          "path": "test-finished-2.png",
           "contentType": "image/png"
         },
         {
