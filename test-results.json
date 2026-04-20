@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-20T08:48:12.938Z",
+  "lastUpdated": "2026-04-20T09:14:27.203Z",
   "runs": [
     {
       "date": "2026-04-20",
@@ -68,7 +68,7 @@
       "module": "Expert-Dashboard",
       "name": "authenticate",
       "status": "passed",
-      "duration": "6.8s",
+      "duration": "7.4s",
       "screenshot": "",
       "video": "",
       "trace": ""
@@ -78,7 +78,7 @@
       "module": "Expert-Dashboard",
       "name": "Expert Dashboard | Appointment booking (dynamic slots)",
       "status": "passed",
-      "duration": "1m 30s",
+      "duration": "1m 29s",
       "screenshot": "",
       "video": "",
       "trace": ""
@@ -88,7 +88,7 @@
       "module": "Expert-Dashboard",
       "name": "create appointment with existing patient and cancel non-cancelled one",
       "status": "failed",
-      "duration": "1m 41s",
+      "duration": "1m 47s",
       "screenshot": "./artifacts/create_appointment_with_existing_patient_and_cance-screenshot.png",
       "video": "./artifacts/create_appointment_with_existing_patient_and_cance-video.webm",
       "trace": "./artifacts/create_appointment_with_existing_patient_and_cance-trace.zip"
@@ -98,7 +98,7 @@
       "module": "Expert-Dashboard",
       "name": "create appointment with existing patient and reschedule",
       "status": "failed",
-      "duration": "1m 46s",
+      "duration": "1m 51s",
       "screenshot": "./artifacts/create_appointment_with_existing_patient_and_resch-screenshot.png",
       "video": "./artifacts/create_appointment_with_existing_patient_and_resch-video.webm",
       "trace": "./artifacts/create_appointment_with_existing_patient_and_resch-trace.zip"
@@ -108,7 +108,7 @@
       "module": "Expert-Dashboard",
       "name": "create appointment and manage session lifecycle",
       "status": "passed",
-      "duration": "1m 31s",
+      "duration": "1m 30s",
       "screenshot": "",
       "video": "",
       "trace": ""
@@ -118,7 +118,7 @@
       "module": "Expert-Dashboard",
       "name": "Expert Dashboard | Create patient & book appointment",
       "status": "passed",
-      "duration": "1m 42s",
+      "duration": "1m 44s",
       "screenshot": "",
       "video": "",
       "trace": ""
@@ -128,7 +128,7 @@
       "module": "Expert-Dashboard",
       "name": "Expert Dashboard | Navigation flow validation",
       "status": "passed",
-      "duration": "8.3s",
+      "duration": "8.1s",
       "screenshot": "",
       "video": "",
       "trace": ""
@@ -138,7 +138,7 @@
       "module": "Expert-Dashboard",
       "name": "Expert Dashboard | Help Center raise & reply ticket",
       "status": "passed",
-      "duration": "9.5s",
+      "duration": "9.2s",
       "screenshot": "",
       "video": "",
       "trace": ""
@@ -148,7 +148,7 @@
       "module": "Expert-Dashboard",
       "name": "create unique patient, search and view profile",
       "status": "passed",
-      "duration": "21.9s",
+      "duration": "23.8s",
       "screenshot": "",
       "video": "",
       "trace": ""
@@ -158,7 +158,7 @@
       "module": "CCOP",
       "name": "CCOP | Help Center | Raise, Reply & Resolve Ticket",
       "status": "passed",
-      "duration": "23.7s",
+      "duration": "20.1s",
       "screenshot": "",
       "video": "",
       "trace": ""
@@ -168,7 +168,7 @@
       "module": "CCOP",
       "name": "Create clinical note with document upload & transcription",
       "status": "passed",
-      "duration": "59.1s",
+      "duration": "59.9s",
       "screenshot": "",
       "video": "",
       "trace": ""
@@ -178,7 +178,7 @@
       "module": "CCOP",
       "name": "Create patient + upload + submit",
       "status": "passed",
-      "duration": "1m 8s",
+      "duration": "1m 25s",
       "screenshot": "",
       "video": "",
       "trace": ""
@@ -188,7 +188,7 @@
       "module": "CCOP",
       "name": "CCOP | Clinician signup full flow (recorded)",
       "status": "failed",
-      "duration": "34.9s",
+      "duration": "34.7s",
       "screenshot": "./artifacts/ccop___clinician_signup_full_flow__recorded_-screenshot.png",
       "video": "./artifacts/ccop___clinician_signup_full_flow__recorded_-video.webm",
       "trace": "./artifacts/ccop___clinician_signup_full_flow__recorded_-trace.zip"
